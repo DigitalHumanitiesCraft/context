@@ -174,6 +174,38 @@ Anders gelagert. Hier ist `scholarly-harvest.py` der Discovery-Pfad, nicht Vollt
 3. Schema-Erweiterung: `representations[].type` um `iconography` ergänzen, wenn Museum-Quellen aufgenommen werden.
 4. Discovery-Snapshot-Manifeste analog zu Wikidata-/Scholarly-Manifesten.
 
+## Iteration-2-Pilot-Bestand (2026-05-22)
+
+Sieben Subkorpora live oder partial gepullt. Schema in [[Datengrundlage CONTEXT|data.md]] Sektion "7. Subkorpus (Iteration 2)", Daten in [`../data/subkorpora.json`](../data/subkorpora.json) und [`../data/discovery-snapshots/`](../data/discovery-snapshots/).
+
+| ID | API | Status | Volumen | Anker-Records |
+|---|---|---|---|---|
+| `openalex-meditation-broad` | OpenAlex /works | live | 13.522 OA-Treffer | (Bulk-Snapshot pending) |
+| `openalex-egodissolution-jhana` | OpenAlex /works | live | 2.324 OA-Treffer seit 2018 | Mason 2020, Smith 2020, Stoliker 2022 |
+| `openalex-qigong-sufi-hesychasm` | OpenAlex /works | live | 96.241 OA-Treffer | Jahnke 2010, Zou 2017, Yeung 2018, Jones 2001 |
+| `pubmed-meditation-neural` | PubMed E-utilities | live | 1.396 Treffer | Cahn 2006, Lenze 2022, Brown 2009, Basso 2018, Ni 2024 |
+| `sefaria-kabbalah` | Sefaria | live-partial | ~900 Passagen im Zohar | Zohar (Aramäisch, 11.-14. Jh., 1558 Mantua) |
+| `openiti-arabic-corpus` | OpenITI GitHub | live-metadata | 11.195 Buchtitel, 2843 Autoren, 2.25 Mrd. Wörter | (Genre-Filter pending) |
+| `ctext-daoist-classics` | ctext.org | partial | ~26 Mio. Zeichen | (API-Syntax pending) |
+| `cbeta-mahayana-meditation` | CBETA | failed | geschätzt 2920 Gesamttexte | (Host nicht erreichbar) |
+| `gretil-pali-sanskrit` | GRETIL OAI-PMH | todo | geschätzt 2000 | (OAI-Endpunkt zu verifizieren) |
+| `wikidata-tradition-works` | Wikidata SPARQL | partial | Topic-basiert unergiebig | (Strategie über Autor-QIDs nötig) |
+
+**Befund aus dem Pilot**: Open-Access-Studien-APIs (OpenAlex, PubMed) liefern leicht Hunderttausende Treffer und sind technisch unkompliziert. Volltext-Fachrepos für Asiatische und Vorder-asiatische Traditionen brauchen mehr kuratorische Vorarbeit, weil die API-Konventionen weniger standardisiert sind. Das spiegelt sich in der Reifegrad-Asymmetrie: was schwer empirisch beforscht wurde, ist auch schwer maschinell zu discovern.
+
+## Tool-Status `tools/discovery.py`
+
+Pluggable Adapter pro Subkorpus, datierter Snapshot-Output. CLI:
+
+```
+python tools/discovery.py --list                    # alle Subkorpora auflisten
+python tools/discovery.py --subkorpus <id>          # einzelnen Subkorpus pullen
+python tools/discovery.py --all                     # alle live-fähigen pullen
+python tools/discovery.py --all --dry-run           # nur planen, nichts schreiben
+```
+
+Aktuell implementiert: OpenAlex (4 Subkorpora), PubMed, Sefaria (Zohar-Anker), OpenITI (Stats). Skelette mit `NotImplementedError`: ctext, CBETA, GRETIL, Wikidata-Bulk. Pluggable über `ADAPTERS`-Dict in `tools/discovery.py`.
+
 ## Related (im Vault)
 
 - [[Wikidata]]

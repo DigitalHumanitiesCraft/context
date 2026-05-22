@@ -122,6 +122,7 @@ function dispatch() {
     else if (route === "gap")         renderGap(root, id);
     else if (route === "repositorium")renderRepositorium(root, id);
     else if (route === "referenz")    renderReferenz(root, id);
+    else if (route === "subkorpus")   renderSubkorpus(root, id);
     else {
       root.innerHTML = `<div class="state-error" role="alert">Unbekannte Route: <code>${escapeHtml(route)}</code>. <a href="#">Zur Übersicht</a></div>`;
     }
@@ -166,6 +167,9 @@ function updateBreadcrumb(route, id) {
   } else if (route === "referenz" && id) {
     const r = DATA?.referenceById.get(id);
     crumbs.push({ href: `#referenz/${id}`, label: r?.title?.slice(0, 60) || id, current: true });
+  } else if (route === "subkorpus" && id) {
+    const sk = DATA?.subkorpusById.get(id);
+    crumbs.push({ href: `#subkorpus/${id}`, label: sk?.label?.slice(0, 60) || id, current: true });
   } else if (route === "aggregation") {
     crumbs.push({ href: "#aggregation", label: "Audit (Aggregation)", current: true });
   } else if (route === "about") {
@@ -291,6 +295,60 @@ function renderHome(root) {
           </li>
         `).join("")}
       </ul>
+    </section>
+
+    ${renderSubkorporaBlock()}
+  `;
+}
+
+function renderSubkorporaBlock() {
+  const subkorpora = DATA.subkorpora || [];
+  if (subkorpora.length === 0) return "";
+  const totalReachable = subkorpora.reduce((acc, sk) => {
+    const v = sk.volume || {};
+    return acc + (v.total_hits || v.total_titles || 0);
+  }, 0);
+
+  const rows = subkorpora.map(sk => {
+    const vol = sk.volume || {};
+    const headline = (vol.total_hits || vol.total_titles)
+      ? `<strong>${(vol.total_hits || vol.total_titles).toLocaleString("de")}</strong> Datensätze`
+      : `<em>Volumen unklar</em>`;
+    const statusClass = {
+      "live": "etabliert", "partial": "beruehrt",
+      "todo": "beginnend", "failed": "fehlend",
+    }[sk.discovery_status] || "";
+    return `
+      <li>
+        <a class="coverage-row subkorpus-row" href="#subkorpus/${escapeAttr(sk.id)}">
+          <span class="cov-label">
+            ${escapeHtml(sk.label)}
+            <span class="cov-subgroups">${escapeHtml(sk.hauptgruppe)} · ${escapeHtml(sk.kind)}</span>
+          </span>
+          <span class="cov-maturity">
+            <span class="maturity ${statusClass}" title="Discovery-Status">${escapeHtml(sk.discovery_status)}</span>
+          </span>
+          <span class="cov-stats">
+            <span>${headline}</span>
+          </span>
+          <span class="cov-arrow" aria-hidden="true">→</span>
+        </a>
+      </li>
+    `;
+  }).join("");
+
+  return `
+    <section class="coverage-section">
+      <header class="section-header">
+        <h2>Subkorpora — Discovery-Pool</h2>
+      </header>
+      <p class="lead">
+        Zehn Subkorpora aus externen Repositorien und APIs. Gesamtvolumen erreichbar:
+        <strong>${totalReachable.toLocaleString("de")}</strong> Datensätze (Studien, Werke, Texte).
+        Discovery-Status: live (Pull erfolgreich), partial (Endpunkt erreichbar, voller
+        Pull steht aus), todo (geplant), failed (Endpunkt nicht erreichbar im letzten Test).
+      </p>
+      <ul class="coverage-list">${rows}</ul>
     </section>
   `;
 }
@@ -785,6 +843,95 @@ function renderReferenz(root, id) {
 }
 
 // ---------- Aggregation: Reifegrad-Matrix ----------
+
+// ---------- Subkorpus ----------
+
+function renderSubkorpus(root, id) {
+  if (!id) {
+    root.innerHTML = `<div class="state-error" role="alert">Kein Subkorpus angegeben.</div>`;
+    return;
+  }
+  const sk = DATA.subkorpusById.get(id);
+  if (!sk) {
+    root.innerHTML = `<div class="state-error" role="alert">Subkorpus <code>${escapeHtml(id)}</code> nicht gefunden.</div>`;
+    return;
+  }
+  document.title = `${sk.label} — CONTEXT`;
+
+  const conceptsHTML = (sk.concepts || []).map(cid => {
+    if (cid === "alle") return `<span class="lod-anchor">alle Konzepte</span>`;
+    const c = DATA.conceptById.get(cid);
+    if (!c) return `<span class="lod-anchor">${escapeHtml(cid)}</span>`;
+    const isGap = c.maturity === "fehlend";
+    const href = isGap ? `#gap/${cid}` : `#konzept/${cid}`;
+    return `<a class="domain-chip" href="${escapeAttr(href)}">${escapeHtml(c.label.translit || c.label.de || cid)}</a>`;
+  }).join(" ");
+
+  const vol = sk.volume || {};
+  const volumeRows = [];
+  if (vol.total_hits != null) volumeRows.push(`<tr><td>Total Hits</td><td><strong>${vol.total_hits.toLocaleString("de")}</strong></td></tr>`);
+  if (vol.total_titles != null) volumeRows.push(`<tr><td>Buchtitel</td><td><strong>${vol.total_titles.toLocaleString("de")}</strong></td></tr>`);
+  if (vol.unique_titles != null) volumeRows.push(`<tr><td>Unique Titles</td><td>${vol.unique_titles.toLocaleString("de")}</td></tr>`);
+  if (vol.authors != null) volumeRows.push(`<tr><td>Autoren</td><td>${vol.authors.toLocaleString("de")}</td></tr>`);
+  if (vol.total_words != null) volumeRows.push(`<tr><td>Wörter</td><td>${escapeHtml(vol.total_words)}</td></tr>`);
+  if (vol.total_characters != null) volumeRows.push(`<tr><td>Zeichen</td><td>${escapeHtml(vol.total_characters)}</td></tr>`);
+  if (vol.estimated_total != null) volumeRows.push(`<tr><td>Geschätzt</td><td>${vol.estimated_total.toLocaleString("de")}</td></tr>`);
+  if (vol.snapshot_size != null) volumeRows.push(`<tr><td>Snapshot-Records</td><td>${vol.snapshot_size}</td></tr>`);
+  if (vol.snapshot_date) volumeRows.push(`<tr><td>Snapshot-Datum</td><td>${escapeHtml(vol.snapshot_date)}</td></tr>`);
+
+  const statusClass = {
+    "live": "etabliert",
+    "partial": "beruehrt",
+    "todo": "beginnend",
+    "failed": "fehlend",
+  }[sk.discovery_status] || "";
+
+  root.innerHTML = `
+    <header class="page-header">
+      <span class="page-kind">Subkorpus (${escapeHtml(sk.kind)})</span>
+      <h1>${escapeHtml(sk.label)}</h1>
+      <div class="page-meta">
+        <span class="maturity ${statusClass}" title="Discovery-Status">${escapeHtml(sk.discovery_status)}</span>
+        <span>Hauptgruppe: ${escapeHtml(sk.hauptgruppe)}</span>
+        <span>Sprache: ${escapeHtml((sk.language || []).join(", "))}</span>
+        <span>Lizenz: ${escapeHtml(sk.license || "—")}</span>
+      </div>
+    </header>
+
+    <section>
+      <h2>Volumen</h2>
+      <table class="meta-table">
+        <tbody>${volumeRows.join("")}</tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>API</h2>
+      <p class="prose">
+        Endpoint: <code>${escapeHtml(sk.api?.endpoint || "—")}</code><br>
+        ${sk.api?.query ? `Query: <code>${escapeHtml(sk.api.query)}</code><br>` : ""}
+        ${sk.api?.documentation ? `Dokumentation: <a href="${escapeAttr(sk.api.documentation)}" target="_blank" rel="noopener">${escapeHtml(sk.api.documentation)}</a>` : ""}
+      </p>
+    </section>
+
+    <section>
+      <h2>Bedient Konzepte</h2>
+      <p class="prose">${conceptsHTML || "—"}</p>
+    </section>
+
+    <section>
+      <h2>Kuratierte Notiz</h2>
+      <p class="prose">${escapeHtml(sk.notes || "—")}</p>
+    </section>
+
+    ${sk.snapshot_file ? `
+    <section>
+      <h2>Letzter Discovery-Snapshot</h2>
+      <p class="prose">Datei: <code>${escapeHtml(sk.snapshot_file)}</code></p>
+    </section>
+    ` : ""}
+  `;
+}
 
 function renderAggregation(root) {
   document.title = "Audit — CONTEXT";

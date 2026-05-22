@@ -1,0 +1,79 @@
+{
+  "snapshot_id": "pubmed-meditation-neural",
+  "snapshot_date": "2026-05-22",
+  "snapshot_mode": "live",
+  "source": {
+    "api": "PubMed E-utilities",
+    "esearch_endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "efetch_endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+    "query": "db=pubmed&term=meditation+AND+(EEG+OR+fMRI+OR+neural)&sort=relevance",
+    "license": "PubMed Public"
+  },
+  "volume": {
+    "total_hits": 1396,
+    "snapshot_size": 5,
+    "note": "Snapshot zeigt die ersten 5 Treffer nach Relevanz-Sortierung. esearch liefert PMIDs, efetch liefert XML mit vollen Metadaten."
+  },
+  "records": [
+    {
+      "pmid": "16536641",
+      "doi": "10.1037/0033-2909.132.2.180",
+      "title": "Meditation states and traits: EEG, ERP, and neuroimaging studies",
+      "authors": ["Cahn, B. Rael", "Polich, John"],
+      "year": 2006,
+      "journal": "Psychological Bulletin",
+      "concept_match": "ich-aufloesung,dmn-suppression,jhana,nichtduales-gewahrsein",
+      "curation_status": "harvested-only",
+      "flags": ["seminal-review", "high-cited", "candidate-for-curation"]
+    },
+    {
+      "pmid": "36511926",
+      "doi": "10.1001/jama.2022.21680",
+      "title": "Effects of Mindfulness Training and Exercise on Cognitive Function in Older Adults",
+      "authors": ["Lenze, Eric J.", "Voegtle, Michelle", "Miller, J. Philip"],
+      "year": 2022,
+      "journal": "JAMA",
+      "concept_match": "mbsr",
+      "curation_status": "harvested-only",
+      "flags": ["rct", "candidate-for-curation"]
+    },
+    {
+      "pmid": "19735239",
+      "doi": "10.1111/j.1749-6632.2009.04394.x",
+      "title": "Yoga breathing, meditation, and longevity",
+      "authors": ["Brown, Richard P.", "Gerbarg, Patricia L."],
+      "year": 2009,
+      "journal": "Annals of the New York Academy of Sciences",
+      "concept_match": "mbsr",
+      "curation_status": "harvested-only",
+      "flags": ["candidate-for-curation"]
+    },
+    {
+      "pmid": "30153464",
+      "doi": "10.1016/j.bbr.2018.08.023",
+      "title": "Brief, daily meditation enhances attention, memory, mood, and emotional regulation",
+      "authors": ["Basso, Julia C.", "McHale, Alexandra", "Ende, Victoria"],
+      "year": 2018,
+      "journal": "Behavioural Brain Research",
+      "concept_match": "mbsr",
+      "curation_status": "harvested-only",
+      "flags": ["candidate-for-curation"]
+    },
+    {
+      "pmid": "38888924",
+      "doi": "10.1001/jamanetworkopen.2024.16684",
+      "title": "Efficacy and Neural Mechanisms of Mindfulness Meditation Among Adults With Internet Gaming Disorder",
+      "authors": ["Ni, Haosen", "Wang, Huabin", "Ma, Xuefeng"],
+      "year": 2024,
+      "journal": "JAMA Network Open",
+      "concept_match": "mbsr",
+      "curation_status": "harvested-only",
+      "flags": ["clinical-application", "candidate-for-curation"]
+    }
+  ],
+  "next_steps": [
+    "Top-25 IDs zu kuratorischer Prüfung",
+    "Pro DOI: Crossref-Anreicherung über tools/scholarly-harvest.py",
+    "Bei kuratierter Aufnahme: in data/studies.json als curated Studie"
+  ]
+}

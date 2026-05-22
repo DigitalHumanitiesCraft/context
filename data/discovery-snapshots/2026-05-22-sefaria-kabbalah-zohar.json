@@ -1,0 +1,43 @@
+{
+  "snapshot_id": "sefaria-kabbalah-zohar",
+  "snapshot_date": "2026-05-22",
+  "snapshot_mode": "live-partial",
+  "source": {
+    "api": "Sefaria",
+    "endpoint": "https://www.sefaria.org/api/index/<work>",
+    "documentation": "https://developers.sefaria.org/reference/",
+    "license": "CC-BY (Sefaria public domain plus translations)"
+  },
+  "volume": {
+    "verified_anchor": "Zohar",
+    "note": "Direkter Index-Pull für Top-Level Mystik-Kategorie liefert keine Treffer; korrekter Endpunkt für Kategorie-Listing muss in Iteration 2.1 verifiziert werden. Zohar als Anker zeigt, dass die Sefaria-Daten existieren und abrufbar sind."
+  },
+  "records": [
+    {
+      "sefaria_id": "Zohar",
+      "title_en": "Zohar",
+      "title_he": "ספר הזהר",
+      "categories": ["Kabbalah", "Zohar"],
+      "language": "Aramaic",
+      "estimated_passages": 900,
+      "traditional_attribution": "Rabbi Shimon bar Yochai (2nd century)",
+      "historical_origin": "11th-14th century, Spain",
+      "first_edition": "1558, Mantua",
+      "url": "https://www.sefaria.org/Zohar",
+      "concept_match": "kabbalah-gap",
+      "curation_status": "harvested-only",
+      "flags": [
+        "primary-text-not-empirical-study",
+        "non-empirical-context-for-gap-knoten",
+        "candidate-for-curation"
+      ]
+    }
+  ],
+  "kuration_role": "Das Zohar ist nicht-empirischer Kontext für den kabbalah-gap-Knoten. Es bestätigt: textlich umfangreich belegt, empirisch unsichtbar. Die Pipeline wandelt damit den Gap-Knoten von 'kein Eintrag' zu '900+ Passagen historischer Primärquelle, aber keine empirischen Studien'.",
+  "next_steps": [
+    "Sefaria-Categories-Endpunkt verifizieren (vermutlich /api/category/Kabbalah)",
+    "Alle Werke unter Kabbalah-Kategorie ziehen",
+    "Pro Werk eigene Subkorpus-Detailseite mit Wikidata-Cross-Link",
+    "Hasidic-Kategorie als zweiter Pull"
+  ]
+}

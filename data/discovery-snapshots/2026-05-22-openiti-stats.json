@@ -1,0 +1,38 @@
+{
+  "snapshot_id": "openiti-stats",
+  "snapshot_date": "2026-05-22",
+  "snapshot_mode": "live-metadata",
+  "source": {
+    "api": "OpenITI",
+    "endpoint": "https://github.com/OpenITI/RELEASE",
+    "metadata_endpoint": "https://github.com/OpenITI/kitab-metadata",
+    "documentation": "https://openiti.org/",
+    "license": "CC-BY-SA (typisch), pro Release prüfen"
+  },
+  "volume": {
+    "total_titles": 11195,
+    "unique_titles": 6785,
+    "authors": 2843,
+    "total_words": "~2.25 Milliarden",
+    "primary_language": "Arabic",
+    "secondary_language": "Persian (begrenzter Bestand)"
+  },
+  "structure": {
+    "directory_pattern": "Author > Book > Versions",
+    "metadata_files": "CSV-Dateien in kitab-metadata mit Titel-, Autor-, Datierungs-, Sprach- und Genre-Informationen",
+    "release_notes": "Pro Release dokumentiert"
+  },
+  "concept_match_strategy": {
+    "sufi_filter": "Über Autor-Namen (Qushayri, Ghazali, Ibn-Arabi, Rumi, Suhrawardi, Junayd) und Genre-Felder ('tasawwuf', 'sufism')",
+    "estimated_sufi_subset": "unbekannt, vermutlich 500-2000 Titel",
+    "next_action": "kitab-metadata CSV herunterladen, nach Autor-Namen und Genre filtern"
+  },
+  "records": [],
+  "kuration_role": "OpenITI ist der Volltext-Anker für die Hauptgruppe Islam. Wandelt sufi-dhikr von 'eine empirische Studie (Saraei 2023)' zu 'eine empirische Studie plus Hunderte historische Primärquellen'.",
+  "next_steps": [
+    "kitab-metadata CSV pullen",
+    "Filter auf Autor-Namen und Genre 'tasawwuf'",
+    "Subkorpus 'OpenITI-Sufi-Mystik' als Discovery-Snapshot mit konkreten Werken anlegen",
+    "Top-20 Werke kuratorisch sichten"
+  ]
+}

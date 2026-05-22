@@ -162,6 +162,35 @@ Theoretische Schlüsselarbeit, an die sich viele Studien anschließen. Eigener K
 
 **Pflichtfelder.** `id`, `type: knotenpunkt`, `title`, `authors`, `year`, `journal`, `doi` (oder `null` mit `doi_status: no-doi`), `url`, `open_access`, `license`, `core_thesis`, `concepts_anchored`, `follow_up_papers` (drei pro Knoten).
 
+### 7. Subkorpus (Iteration 2)
+
+Typisierte Teilmenge eines externen Repositoriums oder einer API, die für eine Hauptgruppe oder ein Konzept relevant ist. Subkorpora sind die Brücke zwischen dem kuratierten Anker-Set und der breiten Datenlandschaft. Ein Subkorpus trägt Volumen-Metadaten, API-Endpunkt, Lizenz und Discovery-Status.
+
+**Pflichtfelder** (in [`../data/subkorpora.json`](../data/subkorpora.json)):
+
+| Feld | Typ | Beschreibung |
+|---|---|---|
+| `id` | string | Slug, stabil |
+| `label` | string | Lesbarer Titel |
+| `hauptgruppe` | string | Eine der sieben Hauptgruppen plus "übergreifend" |
+| `kind` | enum | `scholarly` (Studien-API wie OpenAlex/PubMed) \| `primary-text` (Volltext-Repo wie Sefaria/OpenITI/CBETA) \| `metadata-hub` (Wikidata) |
+| `api.endpoint` | string | Basis-URL der API |
+| `api.query` | string | Konkrete Query-Parameter |
+| `api.documentation` | string | Doku-URL |
+| `volume.total_hits` | integer \| null | Wenn bekannt aus API-Meta |
+| `volume.snapshot_size` | integer | Anzahl Records im letzten Snapshot |
+| `volume.snapshot_date` | date | YYYY-MM-DD |
+| `language` | string[] | ISO-Sprachcodes |
+| `license` | string | Lizenzhinweis |
+| `concepts` | string[] | Verweise auf primär bediente Konzepte oder `["alle"]` für übergreifend |
+| `discovery_status` | enum | `live` (echte Pulls erfolgreich) \| `partial` (Endpunkt erreichbar, vollständiger Pull braucht weitere Arbeit) \| `todo` (geplant, aber nicht angepullt) \| `failed` (Endpunkt nicht erreichbar) |
+| `notes` | string | Kuratorische Beschreibung |
+| `snapshot_file` | string \| null | Pfad zum aktuellsten Discovery-Snapshot |
+
+**Discovery-Snapshots** in [`../data/discovery-snapshots/<datum>-<subkorpus_id>.json`](../data/discovery-snapshots/) enthalten die konkreten gepullten Records mit Metadaten plus Manifest. Records tragen pro Eintrag ein `curation_status`-Flag (`curated` \| `harvested-only`), Re-Discovery überschreibt keine `curated`-Einträge.
+
+**Iteration-2-Pilot-Bestand**: 10 Subkorpora definiert, 4 mit Live-Pulls (OpenAlex broad/jhana/qigong + PubMed), 2 partial (Sefaria-Zohar, OpenITI-Stats), 4 als Skelett (ctext, CBETA, GRETIL, Wikidata-Werke). Gesamtvolumen erreichbar: über 130.000 Open-Access-Studien plus über 11.000 historische arabische Texte plus geschätzt 150-300 kabbalistische Werke plus geschätzt 200-2920 buddhistische Volltexte.
+
 **Aktuelle Knotenpunkte (alle vier mit je drei Folgepapers):**
 
 - Varela 1996 — Neurophänomenologie (kein DOI, Volltext-URL)

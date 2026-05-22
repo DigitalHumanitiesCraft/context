@@ -1,0 +1,59 @@
+{
+  "snapshot_id": "openalex-egodissolution-jhana",
+  "snapshot_date": "2026-05-22",
+  "snapshot_mode": "live",
+  "source": {
+    "api": "OpenAlex",
+    "endpoint": "https://api.openalex.org/works",
+    "query": "search=jhana+OR+%22nondual+meditation%22+OR+%22ego+dissolution%22&filter=is_oa:true,publication_year:>2018&per-page=10",
+    "license": "OpenAlex CC0"
+  },
+  "volume": {
+    "total_hits": 2324,
+    "snapshot_size": 3,
+    "note": "Snapshot zeigt die drei am besten dokumentierten Treffer aus dem ersten Result-Block. Bei produktivem Lauf werden alle bis zu meta.count Treffer paginiert geholt."
+  },
+  "records": [
+    {
+      "doi": "10.1038/s41386-020-0718-8",
+      "title": "Me, myself, bye: regional alterations in glutamate and the experience of ego dissolution with psilocybin",
+      "first_author": "Natasha L. Mason",
+      "year": 2020,
+      "journal": "Neuropsychopharmacology",
+      "cited_by_count": 256,
+      "oa_url": "https://www.nature.com/articles/s41386-020-0718-8.pdf",
+      "concept_match": "ich-aufloesung",
+      "curation_status": "harvested-only",
+      "flags": ["candidate-for-curation"]
+    },
+    {
+      "doi": "10.1136/medethics-2020-106070",
+      "title": "Ethics and ego dissolution: the case of psilocybin",
+      "first_author": "William Smith",
+      "year": 2020,
+      "journal": "Journal of Medical Ethics",
+      "cited_by_count": 139,
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9202314",
+      "concept_match": "ich-aufloesung",
+      "curation_status": "harvested-only",
+      "flags": ["non-empirical-ethics", "candidate-for-curation"]
+    },
+    {
+      "doi": "10.1124/pharmrev.121.000508",
+      "title": "Neural Mechanisms and Psychology of Psychedelic Ego Dissolution",
+      "first_author": "Devon Stoliker",
+      "year": 2022,
+      "journal": "Pharmacological Reviews",
+      "cited_by_count": 82,
+      "oa_url": "https://pharmrev.aspetjournals.org/content/pharmrev/74/4/876.full.pdf",
+      "concept_match": "ich-aufloesung",
+      "curation_status": "harvested-only",
+      "flags": ["follow-up-of-carhart-harris-2014", "candidate-for-curation"]
+    }
+  ],
+  "next_steps": [
+    "Pro Record: kuratorische Prüfung gegen Aufnahmekriterium",
+    "Bei Annahme: in data/studies.json als curated Studie überführen mit concept_id und evidence_type",
+    "Bei Ablehnung: bleibt im Discovery-Snapshot mit flags[]"
+  ]
+}

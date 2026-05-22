@@ -1,0 +1,229 @@
+[
+  {
+    "id": "openalex-meditation-broad",
+    "label": "OpenAlex — Meditation, Neuroscience, Consciousness",
+    "hauptgruppe": "Säkulare und wissenschaftliche Kontexte",
+    "kind": "scholarly",
+    "api": {
+      "endpoint": "https://api.openalex.org/works",
+      "query": "search=meditation+neuroscience+consciousness&filter=is_oa:true",
+      "documentation": "https://docs.openalex.org/api-entities/works"
+    },
+    "volume": {
+      "total_hits": 13522,
+      "snapshot_size": 25,
+      "filter": "Open Access",
+      "snapshot_date": "2026-05-22"
+    },
+    "language": ["en", "de", "fr", "mehrsprachig"],
+    "license": "OpenAlex CC0",
+    "concepts": ["jhana", "nichtduales-gewahrsein", "ich-aufloesung", "mbsr", "dmn-suppression"],
+    "discovery_status": "live",
+    "notes": "Breite Open-Access-Suche über Meditationsforschung. Wird über tools/discovery.py kuratorisch nachgefiltert. Cited-by und Citing-Works liefern Cluster-Kandidaten.",
+    "snapshot_file": "discovery-snapshots/2026-05-22-openalex-meditation-broad.json"
+  },
+  {
+    "id": "openalex-egodissolution-jhana",
+    "label": "OpenAlex — Ego Dissolution, Jhana, Nondual Meditation (seit 2018)",
+    "hauptgruppe": "Säkulare und wissenschaftliche Kontexte",
+    "kind": "scholarly",
+    "api": {
+      "endpoint": "https://api.openalex.org/works",
+      "query": "search=jhana+OR+%22nondual+meditation%22+OR+%22ego+dissolution%22&filter=is_oa:true,publication_year:>2018",
+      "documentation": "https://docs.openalex.org/api-entities/works"
+    },
+    "volume": {
+      "total_hits": 2324,
+      "snapshot_size": 10,
+      "filter": "Open Access seit 2018",
+      "snapshot_date": "2026-05-22"
+    },
+    "language": ["en"],
+    "license": "OpenAlex CC0",
+    "concepts": ["jhana", "nichtduales-gewahrsein", "ich-aufloesung"],
+    "discovery_status": "live",
+    "notes": "Gezielte Suche zu Konzepten mit höchstem Showcase-Wert. Mason 2020, Stoliker 2022, Carhart-Harris-Cluster.",
+    "snapshot_file": "discovery-snapshots/2026-05-22-openalex-egodissolution-jhana.json"
+  },
+  {
+    "id": "openalex-qigong-sufi-hesychasm",
+    "label": "OpenAlex — Qigong, Sufi-Dhikr, Hesychasm",
+    "hauptgruppe": "Daoismus, Islam, Christentum (übergreifend)",
+    "kind": "scholarly",
+    "api": {
+      "endpoint": "https://api.openalex.org/works",
+      "query": "search=%22dhikr%22+OR+%22sufi%22+OR+%22qigong%22+OR+%22hesychasm%22&filter=is_oa:true",
+      "documentation": "https://docs.openalex.org/api-entities/works"
+    },
+    "volume": {
+      "total_hits": 96241,
+      "snapshot_size": 10,
+      "filter": "Open Access",
+      "snapshot_date": "2026-05-22"
+    },
+    "language": ["en", "mehrsprachig"],
+    "license": "OpenAlex CC0",
+    "concepts": ["qigong", "sufi-dhikr", "hesychasm"],
+    "discovery_status": "live",
+    "notes": "Großer Pool, dominiert von Qigong-Forschung (Komplementärmedizin). Sufi/Hesychasm sind unterrepräsentiert, bestätigt Asymmetrie-Befund.",
+    "snapshot_file": "discovery-snapshots/2026-05-22-openalex-qigong-sufi-hesychasm.json"
+  },
+  {
+    "id": "pubmed-meditation-neural",
+    "label": "PubMed — Meditation mit EEG/fMRI/Neural",
+    "hauptgruppe": "Säkulare und wissenschaftliche Kontexte",
+    "kind": "scholarly",
+    "api": {
+      "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "query": "db=pubmed&term=meditation+AND+(EEG+OR+fMRI+OR+neural)",
+      "fetch_endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+      "documentation": "https://www.ncbi.nlm.nih.gov/books/NBK25500/"
+    },
+    "volume": {
+      "total_hits": 1396,
+      "snapshot_size": 25,
+      "filter": "Meditation + EEG/fMRI/neural",
+      "snapshot_date": "2026-05-22"
+    },
+    "language": ["en"],
+    "license": "PubMed Public",
+    "concepts": ["jhana", "nichtduales-gewahrsein", "mbsr", "dmn-suppression", "ich-aufloesung"],
+    "discovery_status": "live",
+    "notes": "Klassischer biomedizinischer Bestand. esearch liefert IDs, efetch liefert XML mit vollen Metadaten. Komplementär zu OpenAlex.",
+    "snapshot_file": "discovery-snapshots/2026-05-22-pubmed-meditation-neural.json"
+  },
+  {
+    "id": "sefaria-kabbalah",
+    "label": "Sefaria — Kabbalah-Kategorie (Zohar, Lurianic, Hasidut)",
+    "hauptgruppe": "Judentum",
+    "kind": "primary-text",
+    "api": {
+      "endpoint": "https://www.sefaria.org/api/index/<work>",
+      "categories_endpoint": "https://www.sefaria.org/api/category/Kabbalah (TODO: korrekte Pfad-Syntax verifizieren)",
+      "documentation": "https://developers.sefaria.org/reference/"
+    },
+    "volume": {
+      "total_hits": null,
+      "verified_examples": ["Zohar (~900 Passagen, Aramäisch, 11.-14. Jh., 1558 Mantua-Erstdruck)"],
+      "estimated_category_size": 150,
+      "snapshot_date": "2026-05-22"
+    },
+    "language": ["he", "arc", "en (Übersetzungen)"],
+    "license": "CC-BY (Sefaria public domain plus translations)",
+    "concepts": ["kabbalah-gap"],
+    "discovery_status": "partial",
+    "notes": "Zohar als Anker verifiziert. Volle Kategorie-Liste braucht korrekten Categories-Endpunkt. Wandelt den Gap-Knoten zu 'empirisch unsichtbar, aber textlich umfangreich belegt'.",
+    "snapshot_file": "discovery-snapshots/2026-05-22-sefaria-kabbalah-zohar.json"
+  },
+  {
+    "id": "openiti-arabic-corpus",
+    "label": "OpenITI — Klassisches Arabisches Corpus",
+    "hauptgruppe": "Islam",
+    "kind": "primary-text",
+    "api": {
+      "endpoint": "https://github.com/OpenITI/RELEASE",
+      "metadata_endpoint": "https://github.com/OpenITI/kitab-metadata",
+      "documentation": "https://openiti.org"
+    },
+    "volume": {
+      "total_titles": 11195,
+      "unique_titles": 6785,
+      "authors": 2843,
+      "total_words": "~2.25 Milliarden",
+      "language": "fast ausschließlich Arabisch, einige Persisch",
+      "snapshot_date": "2026-05-22"
+    },
+    "language": ["ar", "fa"],
+    "license": "siehe OpenITI release notes; meist offen",
+    "concepts": ["sufi-dhikr"],
+    "discovery_status": "partial",
+    "notes": "Bestand verifiziert. Filter auf Sufi-Tradition braucht kitab-metadata-Lookup (Genre-Felder, Autorennamen wie Qushayri, Ghazali, Ibn-Arabi).",
+    "snapshot_file": "discovery-snapshots/2026-05-22-openiti-stats.json"
+  },
+  {
+    "id": "ctext-daoist-classics",
+    "label": "ctext.org — Daoistische Klassiker",
+    "hauptgruppe": "Daoismus",
+    "kind": "primary-text",
+    "api": {
+      "endpoint": "https://api.ctext.org/",
+      "documentation": "https://ctext.org/tools/api (TODO: korrekte Doku-URL finden)"
+    },
+    "volume": {
+      "total_characters": "5.687.102 (pre-Qin und Han) + 20.385.859 (post-Han)",
+      "wiki_chapters": 524934,
+      "library_pages": "über 36 Mio.",
+      "snapshot_date": "2026-05-22"
+    },
+    "language": ["zh-classical"],
+    "license": "ctext.org Terms of Service",
+    "concepts": ["qigong", "neidan-gap"],
+    "discovery_status": "partial",
+    "notes": "Massive Textbasis, aber API-Parameter-Syntax nicht klar dokumentiert. Daodejing, Zhuangzi, Huainanzi liegen dort. Wuzhen pian (Neidan-Klassiker) muss kuratorisch verifiziert werden.",
+    "snapshot_file": "discovery-snapshots/2026-05-22-ctext-stats.json"
+  },
+  {
+    "id": "cbeta-mahayana-meditation",
+    "label": "CBETA — Mahayana-Texte zu Meditation",
+    "hauptgruppe": "Buddhismus",
+    "kind": "primary-text",
+    "api": {
+      "endpoint": "https://cbeta.org (API-URL verifizieren)",
+      "documentation": "https://www.cbeta.org/help/api"
+    },
+    "volume": {
+      "estimated_total": 2920,
+      "filter_estimate": 387,
+      "language": "klassisches Chinesisch",
+      "snapshot_date": "2026-05-22"
+    },
+    "language": ["zh-classical", "skt-trans"],
+    "license": "CC BY-NC-SA",
+    "concepts": ["jhana", "nichtduales-gewahrsein"],
+    "discovery_status": "failed",
+    "notes": "API-Host api.cbetaonline.dila.edu.tw nicht erreichbar im Test. Brauche korrekte URL oder Datendump aus github.com/cbeta-org.",
+    "snapshot_file": null
+  },
+  {
+    "id": "gretil-pali-sanskrit",
+    "label": "GRETIL — Pali und Sanskrit Meditationsliteratur",
+    "hauptgruppe": "Buddhismus",
+    "kind": "primary-text",
+    "api": {
+      "endpoint": "http://gretil.sub.uni-goettingen.de",
+      "documentation": "OAI-PMH-Schnittstelle vermutet"
+    },
+    "volume": {
+      "estimated_total": 2000,
+      "filter_estimate": 234,
+      "snapshot_date": "2026-05-22"
+    },
+    "language": ["pi", "sa"],
+    "license": "GRETIL Terms",
+    "concepts": ["jhana", "nirodha-samapatti", "nichtduales-gewahrsein"],
+    "discovery_status": "todo",
+    "notes": "Bestand bekannt, OAI-PMH-Endpunkt muss in Iteration 2.1 kuratorisch verifiziert werden.",
+    "snapshot_file": null
+  },
+  {
+    "id": "wikidata-tradition-works",
+    "label": "Wikidata — Werke pro kontemplativer Tradition",
+    "hauptgruppe": "übergreifend",
+    "kind": "metadata-hub",
+    "api": {
+      "endpoint": "https://query.wikidata.org/sparql",
+      "documentation": "https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service"
+    },
+    "volume": {
+      "topic_q134178_hits": 2,
+      "note": "Topic-Annotation P921 ist schwach für religiöse Werke. Bessere Strategie: über Autor-QIDs (Q123456=Isaac-Luria etc.) oder über externe Identifier (P227=GND)",
+      "snapshot_date": "2026-05-22"
+    },
+    "language": ["mehrsprachig"],
+    "license": "CC0",
+    "concepts": ["alle"],
+    "discovery_status": "partial",
+    "notes": "Wikidata als Drehscheibe (siehe knowledge/wikidata-als-drehscheibe.md). Topic-basierte Suche unergiebig, Autor-basierte oder Identifier-basierte Strategie sinnvoller.",
+    "snapshot_file": "data/wikidata-snapshots/manifest.json"
+  }
+]

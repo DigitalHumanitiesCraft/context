@@ -1,0 +1,73 @@
+{
+  "snapshot_id": "openalex-qigong-sufi-hesychasm",
+  "snapshot_date": "2026-05-22",
+  "snapshot_mode": "live",
+  "source": {
+    "api": "OpenAlex",
+    "endpoint": "https://api.openalex.org/works",
+    "query": "search=%22dhikr%22+OR+%22sufi%22+OR+%22qigong%22+OR+%22hesychasm%22&filter=is_oa:true&per-page=10",
+    "license": "OpenAlex CC0"
+  },
+  "volume": {
+    "total_hits": 96241,
+    "snapshot_size": 4,
+    "note": "Sehr großer Pool, dominiert von Qigong-Forschung. Sufi/Dhikr und Hesychasm sind in den Top-Treffern unterrepräsentiert, bestätigt das Asymmetrie-Pattern. Bei produktivem Lauf wird per Sub-Query getrennt: Qigong, Sufi, Dhikr, Hesychasm einzeln."
+  },
+  "records": [
+    {
+      "doi": "10.4278/ajhp.081013-lit-248",
+      "title": "A Comprehensive Review of Health Benefits of Qigong and Tai Chi",
+      "first_author": "Roger Jahnke",
+      "year": 2010,
+      "journal": "American Journal of Health Promotion",
+      "cited_by_count": 584,
+      "concept_match": "qigong",
+      "curation_status": "harvested-only",
+      "flags": ["review-article", "candidate-for-curation"]
+    },
+    {
+      "doi": "10.1155/2017/4548706",
+      "title": "A Systematic Review and Meta-Analysis of Baduanjin Qigong for Health Benefits",
+      "first_author": "Liye Zou",
+      "year": 2017,
+      "journal": "Evidence-based Complementary and Alternative Medicine",
+      "cited_by_count": 224,
+      "concept_match": "qigong",
+      "curation_status": "harvested-only",
+      "flags": ["meta-analysis", "candidate-for-curation"]
+    },
+    {
+      "doi": "10.1176/appi.focus.20170042",
+      "title": "Qigong and Tai-Chi for Mood Regulation",
+      "first_author": "Albert Yeung",
+      "year": 2018,
+      "journal": "FOCUS Journal of Lifelong Learning in Psychiatry",
+      "cited_by_count": 163,
+      "concept_match": "qigong",
+      "curation_status": "harvested-only",
+      "flags": ["candidate-for-curation"]
+    },
+    {
+      "doi": "10.1186/1472-6882-1-8",
+      "title": "Changes in cytokine production in healthy subjects practicing Guolin Qigong",
+      "first_author": "Brian M. Jones",
+      "year": 2001,
+      "journal": "BMC Complementary and Alternative Medicine",
+      "cited_by_count": 175,
+      "concept_match": "qigong",
+      "curation_status": "harvested-only",
+      "flags": ["candidate-for-curation"]
+    }
+  ],
+  "gap_finding": {
+    "qigong_records_in_top_10": 4,
+    "sufi_dhikr_records_in_top_10": 0,
+    "hesychasm_records_in_top_10": 0,
+    "interpretation": "Asymmetrie auf der Studien-Discovery-Ebene bestätigt sich. Qigong dominiert, Sufi-Dhikr und Hesychasm sind in den Open-Access-Treffern selten. Das entspricht der kuratierten Reifegrad-Verteilung."
+  },
+  "next_steps": [
+    "Sub-Queries pro Konzept einzeln laufen lassen, statt OR-Query",
+    "Pro Konzept eigenen Discovery-Snapshot erzeugen",
+    "Bei Sufi-Dhikr und Hesychasm prüfen, wie viele Treffer es wirklich gibt"
+  ]
+}

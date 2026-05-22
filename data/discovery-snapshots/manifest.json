@@ -1,0 +1,51 @@
+{
+  "manifest_version": "0.1",
+  "last_updated": "2026-05-22",
+  "snapshots": [
+    {
+      "file": "2026-05-22-openalex-egodissolution-jhana.json",
+      "subkorpus_id": "openalex-egodissolution-jhana",
+      "date": "2026-05-22",
+      "mode": "live",
+      "total_hits": 2324,
+      "snapshot_records": 3
+    },
+    {
+      "file": "2026-05-22-openalex-qigong-sufi-hesychasm.json",
+      "subkorpus_id": "openalex-qigong-sufi-hesychasm",
+      "date": "2026-05-22",
+      "mode": "live",
+      "total_hits": 96241,
+      "snapshot_records": 4
+    },
+    {
+      "file": "2026-05-22-pubmed-meditation-neural.json",
+      "subkorpus_id": "pubmed-meditation-neural",
+      "date": "2026-05-22",
+      "mode": "live",
+      "total_hits": 1396,
+      "snapshot_records": 5
+    },
+    {
+      "file": "2026-05-22-sefaria-kabbalah-zohar.json",
+      "subkorpus_id": "sefaria-kabbalah",
+      "date": "2026-05-22",
+      "mode": "live-partial",
+      "snapshot_records": 1
+    },
+    {
+      "file": "2026-05-22-openiti-stats.json",
+      "subkorpus_id": "openiti-arabic-corpus",
+      "date": "2026-05-22",
+      "mode": "live-metadata",
+      "snapshot_records": 0
+    }
+  ],
+  "pending_subkorpora": [
+    {"subkorpus_id": "openalex-meditation-broad", "reason": "Bulk-Pull, separat zu ziehen"},
+    {"subkorpus_id": "ctext-daoist-classics", "reason": "API-Parameter-Syntax verifizieren"},
+    {"subkorpus_id": "cbeta-mahayana-meditation", "reason": "API-Host nicht erreichbar im Test"},
+    {"subkorpus_id": "gretil-pali-sanskrit", "reason": "OAI-PMH-Endpunkt verifizieren"},
+    {"subkorpus_id": "wikidata-tradition-works", "reason": "Topic-Annotation schwach, alternative Strategie nötig"}
+  ]
+}

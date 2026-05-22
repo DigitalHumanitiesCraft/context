@@ -8,9 +8,11 @@ const SOURCES = {
   studies:      "data/studies.json",
   repositories: "data/repositories.json",
   references:   "data/references.json",
+  subkorpora:   "data/subkorpora.json",
 };
 const WIKIDATA_MANIFEST = "data/wikidata-snapshots/manifest.json";
 const SCHOLARLY_MANIFEST = "data/scholarly-snapshots/manifest.json";
+const DISCOVERY_MANIFEST = "data/discovery-snapshots/manifest.json";
 
 async function fetchJson(url, { optional = false } = {}) {
   try {
@@ -27,14 +29,16 @@ async function fetchJson(url, { optional = false } = {}) {
 }
 
 export async function loadAll() {
-  const [concepts, works, studies, repositories, references, wikidataManifest, scholarlyManifest] = await Promise.all([
+  const [concepts, works, studies, repositories, references, subkorpora, wikidataManifest, scholarlyManifest, discoveryManifest] = await Promise.all([
     fetchJson(SOURCES.concepts),
     fetchJson(SOURCES.works),
     fetchJson(SOURCES.studies),
     fetchJson(SOURCES.repositories),
     fetchJson(SOURCES.references),
+    fetchJson(SOURCES.subkorpora, { optional: true }),
     fetchJson(WIKIDATA_MANIFEST, { optional: true }),
     fetchJson(SCHOLARLY_MANIFEST, { optional: true }),
+    fetchJson(DISCOVERY_MANIFEST, { optional: true }),
   ]);
 
   const repoById = new Map(repositories.map(r => [r.id, r]));
@@ -123,17 +127,38 @@ export async function loadAll() {
     .sort()
     .pop() || null;
 
+  const subkorporaList = subkorpora || [];
+  const subkorpusById = new Map(subkorporaList.map(s => [s.id, s]));
+  const subkorporaByHauptgruppe = new Map();
+  for (const sk of subkorporaList) {
+    const hg = sk.hauptgruppe;
+    if (!subkorporaByHauptgruppe.has(hg)) subkorporaByHauptgruppe.set(hg, []);
+    subkorporaByHauptgruppe.get(hg).push(sk);
+  }
+  const subkorporaByConcept = new Map();
+  for (const sk of subkorporaList) {
+    for (const cid of (sk.concepts || [])) {
+      if (cid === "alle") continue;
+      if (!subkorporaByConcept.has(cid)) subkorporaByConcept.set(cid, []);
+      subkorporaByConcept.get(cid).push(sk);
+    }
+  }
+
   return {
     concepts,
     works,
     studies,
     repositories,
     references,
+    subkorpora: subkorporaList,
     conceptById,
     workById,
     studyById,
     repoById,
     referenceById,
+    subkorpusById,
+    subkorporaByHauptgruppe,
+    subkorporaByConcept,
     worksByConcept,
     studiesByConcept,
     worksByRepo,
