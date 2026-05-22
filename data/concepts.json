@@ -1,0 +1,87 @@
+[
+  {
+    "id": "jhana",
+    "label": {
+      "original": "ඣාන",
+      "translit": "Jhāna",
+      "de": "Meditative Versenkung",
+      "en": "Meditative Absorption"
+    },
+    "wikidata_qid": "Q1057743",
+    "aufnahmegrund": {
+      "citation": "Lutz et al. 2008 (synthetisch zitiert) — Attention regulation and monitoring in meditation",
+      "doi": "10.0000/placeholder-jhana"
+    },
+    "traditions": ["Pali-Buddhismus", "Theravāda"],
+    "summary": "Acht Stufen meditativer Vertiefung, im Pali-Kanon als Pfad der Konzentration beschrieben. Empirisch über EEG-Signaturen und fMRT-Aktivierungsmuster untersucht.",
+    "placeholder": true
+  },
+  {
+    "id": "nichtduales-gewahrsein",
+    "label": {
+      "original": "अद्वैत / རིགས་པ",
+      "translit": "Advaita / Rigpa",
+      "de": "Nichtduales Gewahrsein",
+      "en": "Non-Dual Awareness"
+    },
+    "wikidata_qid": "Q486276",
+    "aufnahmegrund": {
+      "citation": "Josipovic 2014 (synthetisch zitiert) — Neural correlates of nondual awareness",
+      "doi": "10.0000/placeholder-nondual"
+    },
+    "traditions": ["Advaita Vedānta", "Dzogchen"],
+    "summary": "Zustand des Subjekt-Objekt-Kollabierens, in Advaita Vedānta und Dzogchen unter verschiedenen Termini beschrieben. Konzept-Disambiguierung über Traditionen relevant.",
+    "placeholder": true
+  },
+  {
+    "id": "nirodha-samapatti",
+    "label": {
+      "original": "निरोधसमापत्ति",
+      "translit": "Nirodha Samāpatti",
+      "de": "Erlangung des Aufhörens",
+      "en": "Attainment of Cessation"
+    },
+    "wikidata_qid": null,
+    "aufnahmegrund": {
+      "citation": "Anālayo 2017 (synthetisch zitiert) — Attainment of cessation in Theravāda meditation manuals",
+      "doi": "10.0000/placeholder-nirodha"
+    },
+    "traditions": ["Theravāda"],
+    "summary": "Tiefer meditativer Zustand mit dokumentiertem Stillstand vitaler Funktionen. Methodisch heikle Empirie wegen schwerer Reproduzierbarkeit unter Laborbedingungen.",
+    "placeholder": true
+  },
+  {
+    "id": "dmn-suppression",
+    "label": {
+      "original": "—",
+      "translit": "DMN-Suppression",
+      "de": "Suppression des Default Mode Network",
+      "en": "Default Mode Network Suppression"
+    },
+    "wikidata_qid": "Q4137055",
+    "aufnahmegrund": {
+      "citation": "Brewer et al. 2011 (synthetisch zitiert) — Meditation experience is associated with differences in default mode network activity",
+      "doi": "10.0000/placeholder-dmn"
+    },
+    "traditions": [],
+    "summary": "Rein empirisches Konzept aus der Neurowissenschaft. Hat absichtlich keinen historischen Quelltext, demonstriert dass das Modell auch empirisch-deskriptive Phänomene trägt.",
+    "placeholder": true
+  },
+  {
+    "id": "hesychasm",
+    "label": {
+      "original": "Ἡσυχασμός",
+      "translit": "Hesychasmos",
+      "de": "Hesychasmus / Herzensgebet",
+      "en": "Hesychasm / Prayer of the Heart"
+    },
+    "wikidata_qid": "Q207631",
+    "aufnahmegrund": {
+      "citation": "Louth 2015 (synthetisch zitiert) — Hesychast prayer and contemporary contemplative research",
+      "doi": "10.0000/placeholder-hesychasm"
+    },
+    "traditions": ["Orthodoxes Christentum", "Christliche Mystik"],
+    "summary": "Stille kontemplative Praxis der orthodoxen Tradition, methodisch über Herzfrequenzvariabilität und Atemmuster empirisch untersucht.",
+    "placeholder": true
+  }
+]

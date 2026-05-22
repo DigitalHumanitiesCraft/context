@@ -1,0 +1,44 @@
+[
+  {
+    "id": "gretil",
+    "label": "GRETIL — Göttingen Register of Electronic Texts in Indian Languages",
+    "url": "http://gretil.sub.uni-goettingen.de",
+    "tradition_scope": ["Pali-Buddhismus", "Sanskrit-Hinduismus", "Advaita Vedānta", "Theravāda"],
+    "languages": ["pi", "sa"]
+  },
+  {
+    "id": "cbeta",
+    "label": "CBETA — Chinese Buddhist Electronic Text Association",
+    "url": "https://www.cbeta.org",
+    "tradition_scope": ["Mahāyāna", "Chan", "Chinesischer Buddhismus"],
+    "languages": ["zh", "zh-classical"]
+  },
+  {
+    "id": "suttacentral",
+    "label": "SuttaCentral",
+    "url": "https://suttacentral.net",
+    "tradition_scope": ["Pali-Buddhismus", "Theravāda", "Frühbuddhismus"],
+    "languages": ["pi", "sa", "zh-classical", "bo", "en", "de"]
+  },
+  {
+    "id": "bdrc",
+    "label": "BDRC — Buddhist Digital Resource Center",
+    "url": "https://www.bdrc.io",
+    "tradition_scope": ["Tibetischer Buddhismus", "Dzogchen", "Mahāyāna"],
+    "languages": ["bo", "sa"]
+  },
+  {
+    "id": "tlg",
+    "label": "TLG — Thesaurus Linguae Graecae",
+    "url": "http://stephanus.tlg.uci.edu",
+    "tradition_scope": ["Griechische Antike", "Patristik", "Orthodoxes Christentum"],
+    "languages": ["grc"]
+  },
+  {
+    "id": "pubmed",
+    "label": "PubMed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov",
+    "tradition_scope": ["Empirische Forschung"],
+    "languages": ["en"]
+  }
+]

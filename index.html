@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTEXT — Contemplative Corpora Graph</title>
+  <meta name="description" content="Föderierte Linked-Open-Data-Schicht, die historische kontemplative Überlieferung mit empirischer Bewusstseinsforschung verbindet.">
+  <link rel="stylesheet" href="assets/tokens.css">
+  <link rel="stylesheet" href="assets/base.css">
+  <link rel="stylesheet" href="assets/components.css">
+</head>
+<body data-page="index">
+
+<header class="site-header">
+  <div class="container">
+    <a class="site-title" href="index.html">CONTEXT<span class="subtitle">Contemplative Corpora Graph</span></a>
+    <nav class="site-nav">
+      <a href="index.html" class="is-current">Konzepte</a>
+      <a href="about.html">Methodische Position</a>
+      <a href="https://github.com/DigitalHumanitiesCraft/context" target="_blank" rel="noopener">Repo</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <h1>Konzepte</h1>
+    <p class="lead">
+      Eintrittspunkt in CONTEXT. Jedes Konzept verbindet eine historische
+      Überlieferung mit empirischer Bewusstseinsforschung. Wählen Sie ein
+      Konzept aus, um die zweispaltige Brücken-Ansicht zu öffnen.
+    </p>
+
+    <div class="coverage-banner">
+      <span class="label">Hinweis</span>
+      <span class="text">
+        Synthetischer Platzhalter-Datensatz. Die faktische Abdeckung würde
+        der Erschließungslage folgen, nicht dem Anspruch. Latein, Griechisch
+        und klassisches Chinesisch sind in der Realität gut digitalisiert,
+        Arabisch und Tibetisch deutlich schlechter. Diese Verzerrung wird im
+        finalen Datensatz als Eigenschaft des Systems offengelegt.
+      </span>
+    </div>
+
+    <div class="filters">
+      <div class="filter-group">
+        <span class="legend">Tradition</span>
+        <div id="filters-traditions"></div>
+      </div>
+      <div class="filter-group">
+        <span class="legend">Evidenz</span>
+        <div id="filters-evidence"></div>
+      </div>
+      <span class="results-count" id="results-count"></span>
+    </div>
+
+    <ul class="concept-grid" id="concept-grid">
+      <li class="state-loading">Lade Konzepte …</li>
+    </ul>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>CONTEXT v0 · Prototyp 2026-05-22</span>
+    <span>DigitalHumanitiesCraft · <a href="https://github.com/DigitalHumanitiesCraft/context" target="_blank" rel="noopener">GitHub</a></span>
+  </div>
+</footer>
+
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>

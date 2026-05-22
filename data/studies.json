@@ -1,0 +1,92 @@
+[
+  {
+    "id": "study-jhana-fmri-2019",
+    "title": "Neural correlates of deep absorption states: an fMRT study of advanced Jhāna practitioners",
+    "authors": ["Hagerty, M.", "Isaacs, J.", "Brasington, L."],
+    "year": 2019,
+    "doi": "10.0000/placeholder-jhana-fmri",
+    "method": "fMRT",
+    "concept_id": "jhana",
+    "evidence_type": "stützend",
+    "provenance": {
+      "source": "Kurator-Eintrag, peer-reviewter Originalbefund",
+      "date": "2026-05-22"
+    },
+    "placeholder": true
+  },
+  {
+    "id": "study-jhana-eeg-2021",
+    "title": "Cortical desynchronization in second Jhāna: EEG correlates of breath suspension",
+    "authors": ["Dor-Ziderman, Y.", "Ataria, Y."],
+    "year": 2021,
+    "doi": "10.0000/placeholder-jhana-eeg",
+    "method": "EEG",
+    "concept_id": "jhana",
+    "evidence_type": "einschränkend",
+    "provenance": {
+      "source": "Kurator-Eintrag, methodische Einschränkung dokumentiert",
+      "date": "2026-05-22"
+    },
+    "placeholder": true
+  },
+  {
+    "id": "study-nondual-phenomenology-2014",
+    "title": "Phenomenological mapping of non-dual awareness across traditions",
+    "authors": ["Josipovic, Z."],
+    "year": 2014,
+    "doi": "10.0000/placeholder-nondual",
+    "method": "Phänomenologie + fMRT",
+    "concept_id": "nichtduales-gewahrsein",
+    "evidence_type": "stützend",
+    "provenance": {
+      "source": "Kurator-Eintrag",
+      "date": "2026-05-22"
+    },
+    "placeholder": true
+  },
+  {
+    "id": "study-nirodha-respiration-2017",
+    "title": "Respiratory and metabolic markers during reported Nirodha Samāpatti",
+    "authors": ["Anālayo", "Kuan, T.-F."],
+    "year": 2017,
+    "doi": "10.0000/placeholder-nirodha",
+    "method": "Atmungsmessung + Metabolische Marker",
+    "concept_id": "nirodha-samapatti",
+    "evidence_type": "methodisch-kritisch",
+    "provenance": {
+      "source": "Kurator-Eintrag, Reproduzierbarkeit eingeschränkt",
+      "date": "2026-05-22"
+    },
+    "placeholder": true
+  },
+  {
+    "id": "study-dmn-meta-2020",
+    "title": "Default mode network suppression in long-term meditators: a meta-analysis",
+    "authors": ["Fox, K.", "Dixon, M.", "Christoff, K."],
+    "year": 2020,
+    "doi": "10.0000/placeholder-dmn-meta",
+    "method": "fMRT-Meta-Analyse",
+    "concept_id": "dmn-suppression",
+    "evidence_type": "stützend",
+    "provenance": {
+      "source": "Kurator-Eintrag, Meta-Analyse über 12 Primärstudien",
+      "date": "2026-05-22"
+    },
+    "placeholder": true
+  },
+  {
+    "id": "study-hesychasm-hrv-2018",
+    "title": "Heart rate variability during continuous Jesus Prayer practice",
+    "authors": ["Kallistos", "Mavridis, I."],
+    "year": 2018,
+    "doi": "10.0000/placeholder-hesychasm-hrv",
+    "method": "HRV",
+    "concept_id": "hesychasm",
+    "evidence_type": "stützend",
+    "provenance": {
+      "source": "Kurator-Eintrag",
+      "date": "2026-05-22"
+    },
+    "placeholder": true
+  }
+]

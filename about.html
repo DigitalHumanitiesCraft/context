@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Methodische Position — CONTEXT</title>
+  <link rel="stylesheet" href="assets/tokens.css">
+  <link rel="stylesheet" href="assets/base.css">
+  <link rel="stylesheet" href="assets/components.css">
+</head>
+<body data-page="about">
+
+<header class="site-header">
+  <div class="container">
+    <a class="site-title" href="index.html">CONTEXT<span class="subtitle">Contemplative Corpora Graph</span></a>
+    <nav class="site-nav">
+      <a href="index.html">Konzepte</a>
+      <a href="about.html" class="is-current">Methodische Position</a>
+      <a href="https://github.com/DigitalHumanitiesCraft/context" target="_blank" rel="noopener">Repo</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+
+    <h1>Methodische Position</h1>
+    <p class="lead">
+      CONTEXT ist eine Brückeninfrastruktur, keine Volltextsammlung. Diese
+      Seite dokumentiert, woran sich Aufnahme, Strukturierung und Sichtbarkeit
+      orientieren.
+    </p>
+
+    <div class="coverage-banner">
+      <span class="label">Hinweis</span>
+      <span class="text">
+        Der aktuelle Stand ist Prototyp v0 mit synthetischen Platzhalterdaten.
+        Aufnahmen werden im finalen Datensatz pro Eintrag durch peer-reviewte
+        Sekundärliteratur belegt.
+      </span>
+    </div>
+
+    <section class="section">
+      <h2>Aufnahmekriterium</h2>
+      <p>
+        Ein Konzept, Werk oder eine empirische Studie wird in CONTEXT
+        aufgenommen, wenn seriöse wissenschaftliche Sekundärliteratur die
+        Verbindung zur kontemplativen Tradition belegt. Pro Eintrag ist der
+        Aufnahmegrund als Referenz dokumentiert. Damit grenzt sich CONTEXT von
+        der esoterischen Grauzone ab und macht kuratorische Entscheidungen
+        nachvollziehbar.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Materialbegriff und Ausschlüsse</h2>
+      <p>
+        Materialbegriff bewusst weit über Traditionen hinweg: Pali- und
+        Sanskrit-Quellen, klassisches Chinesisch, Tibetisch, christliche
+        Mystik, lateinische und griechische Texte, arabische Überlieferung,
+        daoistische und neuplatonische Werke. Eingeschlossen sind nur
+        Studien, die ein historisches Konzept untersuchen.
+      </p>
+      <p>
+        Bewusstseinsforschung im engeren Sinn — kognitive Neurowissenschaft
+        und Phänomenologie des Bewusstseins als eigenständige Forschungsstränge
+        — bleibt ausgeschlossen, weil zeitlich, sprachlich und gattungsmäßig
+        nicht kommensurabel mit der Textüberlieferung.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Bekannte Verzerrung</h2>
+      <p>
+        Die faktische Abdeckung folgt der Erschließungslage, nicht dem
+        Anspruch. Latein, Griechisch und klassisches Chinesisch sind gut
+        digitalisiert. Arabisch und Tibetisch sind deutlich schlechter
+        erschlossen. Diese Verzerrung wird im Interface über den
+        Coverage-Banner explizit gemacht, statt verschwiegen zu werden.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Belegtrennung und Evidenzgrad</h2>
+      <p>
+        Digitale Repräsentationen tragen einen Typ: <em>Edition</em> für
+        analysierbaren Volltext, <em>Faksimile</em> für reine Bildbelege.
+        Die beiden sind visuell unterschieden, damit der epistemische Status
+        jeder Repräsentation klar bleibt.
+      </p>
+      <p>
+        Studie–Konzept-Verknüpfungen tragen einen Evidenzgrad: stützend,
+        einschränkend oder methodisch-kritisch. Eine bloße Verlinkung ohne
+        Typisierung wäre ein verzerrtes Bild der Evidenzlage; eine Studie
+        kann ein Konzept ebenso einschränken wie stützen.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Roadmap — Optimierungspunkte aus dem Konzeptpapier</h2>
+      <table class="decision-log">
+        <thead>
+          <tr>
+            <th>Punkt</th>
+            <th>Status v0</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Provenienz pro Aussage</td>
+            <td><span class="status accepted">accepted</span></td>
+          </tr>
+          <tr>
+            <td>Konzept-Disambiguierung über Traditionen</td>
+            <td><span class="status partial">partial</span></td>
+          </tr>
+          <tr>
+            <td>Mehrsprachige Labels (Originalschrift, Transliteration, Übersetzung)</td>
+            <td><span class="status accepted">accepted</span></td>
+          </tr>
+          <tr>
+            <td>Versionierung des Vokabulars (stabile IDs, repo-weite Schema-Version)</td>
+            <td><span class="status accepted">accepted</span></td>
+          </tr>
+          <tr>
+            <td>Evidenzgrad statt bloßer Verlinkung</td>
+            <td><span class="status accepted">accepted</span></td>
+          </tr>
+          <tr>
+            <td>Reproduzierbarkeit der SPARQL-Schicht</td>
+            <td><span class="status deferred">deferred</span></td>
+          </tr>
+          <tr>
+            <td>Beitragsweg für Dritte über strukturierte Issues</td>
+            <td><span class="status deferred">deferred</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>Wissensbasis und Quellcode</h2>
+      <p>
+        Die deklarative Wissensbasis liegt im Repository unter
+        <a href="https://github.com/DigitalHumanitiesCraft/context/tree/main/knowledge" target="_blank" rel="noopener">knowledge/</a>.
+        Acht Promptotyping-Dokumente beschreiben Identität, Datenmodell,
+        Spezifikation, User Stories, Gestaltung, Architektur und Genese.
+        Der vollständige Quellcode dieses Frontends ist Vanilla JS ohne
+        Build-Step und steht unter MIT-Lizenz.
+      </p>
+    </section>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>CONTEXT v0 · Prototyp 2026-05-22</span>
+    <span>DigitalHumanitiesCraft · <a href="https://github.com/DigitalHumanitiesCraft/context" target="_blank" rel="noopener">GitHub</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
