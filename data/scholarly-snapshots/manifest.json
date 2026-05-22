@@ -1,0 +1,12 @@
+{
+  "snapshots": [
+    {
+      "file": "2026-05-22-scholarly.json",
+      "date": "2026-05-22",
+      "mode": "offline-fixtures",
+      "seeds_total": 34,
+      "true_gaps": 2,
+      "seed_incomplete": 0
+    }
+  ]
+}

@@ -7,104 +7,87 @@
       "de": "Der Weg der Reinheit",
       "en": "Path of Purification"
     },
-    "wikidata_qid": "Q1361824",
+    "wikidata_qid": "Q200447",
     "author": "Buddhaghosa",
     "century": "5. Jh. n. Chr.",
     "tradition": "Theravāda",
     "language": "pi",
-    "concept_ids": ["jhana", "nirodha-samapatti"],
+    "concept_ids": [
+      "jhana",
+      "nirodha-samapatti"
+    ],
     "representations": [
-      {
-        "id": "visuddhimagga-gretil",
-        "repository_id": "gretil",
-        "type": "edition",
-        "url": "http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/visud_pu.htm",
-        "format": "plain text"
-      },
       {
         "id": "visuddhimagga-suttacentral",
         "repository_id": "suttacentral",
         "type": "edition",
         "url": "https://suttacentral.net/vism",
-        "format": "TEI-XML"
+        "format": "TEI-XML, plain text",
+        "note": "Pali-Originaltext und englische Übersetzung"
+      },
+      {
+        "id": "visuddhimagga-accesstoinsight",
+        "repository_id": "access-to-insight",
+        "type": "edition",
+        "url": "https://www.accesstoinsight.org/lib/authors/nanamoli/PathofPurification2011.pdf",
+        "format": "PDF",
+        "note": "Ñāṇamoli-Übersetzung 2011"
       }
-    ],
-    "placeholder": true
+    ]
   },
   {
-    "id": "anguttara-nikaya-an9",
+    "id": "anguttara-nikaya",
     "label": {
       "original": "अङ्गुत्तरनिकाय",
-      "translit": "Aṅguttara Nikāya, AN 9",
-      "de": "Anguttara Nikāya, Buch 9",
-      "en": "Numerical Discourses, Book 9"
+      "translit": "Aṅguttara Nikāya",
+      "de": "Anguttara Nikaya",
+      "en": "Numerical Discourses"
     },
-    "wikidata_qid": "Q4753049",
+    "wikidata_qid": "Q544764",
     "author": null,
-    "century": "1. Jh. v. Chr. (Kanonisierung)",
+    "century": "Kanonisierung 1. Jh. v. Chr.",
     "tradition": "Pali-Buddhismus",
     "language": "pi",
-    "concept_ids": ["jhana"],
+    "concept_ids": [
+      "jhana"
+    ],
     "representations": [
       {
-        "id": "an9-suttacentral",
+        "id": "an-suttacentral",
         "repository_id": "suttacentral",
         "type": "edition",
-        "url": "https://suttacentral.net/an9",
-        "format": "TEI-XML"
+        "url": "https://suttacentral.net/an",
+        "format": "TEI-XML, plain text",
+        "note": "Pali plus mehrsprachige Übersetzungen"
       }
-    ],
-    "placeholder": true
+    ]
   },
   {
     "id": "astavakra-gita",
     "label": {
       "original": "अष्टावक्रगीता",
       "translit": "Aṣṭāvakra Gītā",
-      "de": "Gesang des Aṣṭāvakra",
-      "en": "Song of Ashtavakra"
+      "de": "Ashtavakra Gita",
+      "en": "Ashtavakra Gita"
     },
-    "wikidata_qid": "Q575755",
+    "wikidata_qid": "Q780145",
     "author": "Aṣṭāvakra (zugeschrieben)",
-    "century": "5.–14. Jh. (umstritten)",
+    "century": "5.–14. Jh. (Datierung umstritten)",
     "tradition": "Advaita Vedānta",
     "language": "sa",
-    "concept_ids": ["nichtduales-gewahrsein"],
+    "concept_ids": [
+      "nichtduales-gewahrsein"
+    ],
     "representations": [
       {
         "id": "astavakra-gretil",
         "repository_id": "gretil",
         "type": "edition",
         "url": "http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/vedanta/astgit_u.htm",
-        "format": "plain text"
+        "format": "plain text",
+        "note": "Sanskrit, Unicode-transliteriert"
       }
-    ],
-    "placeholder": true
-  },
-  {
-    "id": "khregs-chod",
-    "label": {
-      "original": "ཁྲེགས་ཆོད",
-      "translit": "Khregs chod",
-      "de": "Durchschneiden der Härte",
-      "en": "Cutting Through"
-    },
-    "wikidata_qid": null,
-    "author": "Verschiedene",
-    "century": "8.–14. Jh.",
-    "tradition": "Dzogchen",
-    "language": "bo",
-    "concept_ids": ["nichtduales-gewahrsein"],
-    "representations": [
-      {
-        "id": "khregs-chod-bdrc",
-        "repository_id": "bdrc",
-        "type": "facsimile",
-        "url": "https://library.bdrc.io/show/bdr:placeholder",
-        "format": "IIIF"
-      }
-    ],
-    "placeholder": true
+    ]
   },
   {
     "id": "philokalia",
@@ -114,21 +97,50 @@
       "de": "Philokalie",
       "en": "Philokalia"
     },
-    "wikidata_qid": "Q1014923",
-    "author": "Verschiedene Kompilatoren",
-    "century": "18. Jh. (Kompilation), Texte 4.–15. Jh.",
+    "wikidata_qid": "Q929140",
+    "author": "Verschiedene Kompilatoren (Nikodim Hagiorit, Makarios von Korinth)",
+    "century": "Kompilation 1782, Texte 4.–15. Jh.",
     "tradition": "Orthodoxes Christentum",
     "language": "grc",
-    "concept_ids": ["hesychasm"],
+    "concept_ids": [
+      "hesychasm"
+    ],
     "representations": [
       {
-        "id": "philokalia-tlg",
-        "repository_id": "tlg",
+        "id": "philokalia-archive",
+        "repository_id": "archive-org",
         "type": "edition",
-        "url": "http://stephanus.tlg.uci.edu/placeholder",
-        "format": "plain text"
+        "url": "https://archive.org/details/Philokalia-TheCompleteText",
+        "format": "PDF",
+        "note": "Englische Übersetzung Palmer/Sherrard/Ware"
       }
+    ]
+  },
+  {
+    "id": "genjokoan",
+    "label": {
+      "original": "現成公案",
+      "translit": "Genjōkōan",
+      "de": "Genjokoan",
+      "en": "Genjōkōan"
+    },
+    "wikidata_qid": "Q3100748",
+    "author": "Dōgen",
+    "century": "1233",
+    "tradition": "Sōtō-Zen",
+    "language": "ja-classical",
+    "concept_ids": [
+      "nichtduales-gewahrsein"
     ],
-    "placeholder": true
+    "representations": [
+      {
+        "id": "genjokoan-stanford",
+        "repository_id": "stanford-soto",
+        "type": "edition",
+        "url": "https://web.stanford.edu/group/scbs/sztp3/translations/shobogenzo/translations/genjo_koan/translation.html",
+        "format": "HTML",
+        "note": "Englische Übersetzung Bielefeldt"
+      }
+    ]
   }
 ]

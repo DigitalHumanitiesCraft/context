@@ -1,0 +1,137 @@
+{
+  "head": {
+    "vars": [
+      "work",
+      "workLabel",
+      "authorLabel",
+      "inception",
+      "languageLabel",
+      "genreLabel"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "work": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q200447"
+        },
+        "workLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Visuddhimagga"
+        },
+        "authorLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Buddhaghosa"
+        },
+        "languageLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Pali"
+        },
+        "genreLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Buddhistische Literatur"
+        }
+      },
+      {
+        "work": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q544764"
+        },
+        "workLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Anguttara-Nikaya"
+        }
+      },
+      {
+        "work": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q780145"
+        },
+        "workLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ashtavakra Gita"
+        },
+        "authorLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Ashtavakra"
+        },
+        "languageLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Sanskrit"
+        }
+      },
+      {
+        "work": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q929140"
+        },
+        "workLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Philokalie"
+        },
+        "authorLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Nikodemos der Hagiorite"
+        },
+        "languageLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Griechisch"
+        },
+        "genreLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Essay"
+        }
+      },
+      {
+        "work": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q929140"
+        },
+        "workLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Philokalie"
+        },
+        "authorLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Makarios von Korinth"
+        },
+        "languageLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Griechisch"
+        },
+        "genreLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Essay"
+        }
+      },
+      {
+        "work": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3100748"
+        },
+        "workLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Genjōkōan"
+        }
+      }
+    ]
+  }
+}

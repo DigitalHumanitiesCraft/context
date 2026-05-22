@@ -1,0 +1,32 @@
+# Mehrsprachige Labels und Wikipedia-Verweise für CONTEXT-Konzepte.
+#
+# Zweck: Labels und Kurzbeschreibungen aus Wikidata für die im Modell
+#        geführten Konzepte anreichern.
+# Spalten: ?concept ?conceptLabel ?conceptDescription ?dewiki ?enwiki
+# Snapshot: ../wikidata-snapshots/YYYY-MM-DD-concept-labels.json
+
+SELECT ?concept ?conceptLabel ?conceptDescription ?dewiki ?enwiki
+WHERE {
+  VALUES ?concept {
+    wd:Q6577829   # Dhyāna in Buddhism (Jhāna)
+    wd:Q2505322   # nondualism
+    wd:Q17039003  # nirodha-samāpatti
+    wd:Q1182555   # default mode network
+    wd:Q629589    # hesychasm
+    wd:Q5348168   # ego death
+    wd:Q341036    # mindfulness-based stress reduction
+  }
+
+  OPTIONAL {
+    ?dewiki schema:about ?concept ;
+            schema:isPartOf <https://de.wikipedia.org/> .
+  }
+  OPTIONAL {
+    ?enwiki schema:about ?concept ;
+            schema:isPartOf <https://en.wikipedia.org/> .
+  }
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "de,en,pi,sa,bo,grc" .
+  }
+}

@@ -2,86 +2,296 @@
   {
     "id": "jhana",
     "label": {
-      "original": "ඣාන",
-      "translit": "Jhāna",
+      "original": "झान · ඣාන",
+      "translit": "Jhāna · Dhyāna",
       "de": "Meditative Versenkung",
       "en": "Meditative Absorption"
     },
-    "wikidata_qid": "Q1057743",
+    "wikidata_qid": "Q6577829",
     "aufnahmegrund": {
-      "citation": "Lutz et al. 2008 (synthetisch zitiert) — Attention regulation and monitoring in meditation",
-      "doi": "10.0000/placeholder-jhana"
+      "citation": "Chowdhury A, Bianciardi M, Chapdelaine E, Riaz OS, Timmermann C, van Lutterveld R, Sparby T, Sacchet MD (2025). Multimodal neurophenomenology of advanced concentration absorption meditation — an intensively sampled case study of Jhana. NeuroImage 305, 120973.",
+      "doi": "10.1016/j.neuroimage.2024.120973"
     },
-    "traditions": ["Pali-Buddhismus", "Theravāda"],
-    "summary": "Acht Stufen meditativer Vertiefung, im Pali-Kanon als Pfad der Konzentration beschrieben. Empirisch über EEG-Signaturen und fMRT-Aktivierungsmuster untersucht.",
-    "placeholder": true
+    "traditions": [
+      "Theravāda",
+      "Pali-Buddhismus"
+    ],
+    "summary": "Acht Stufen meditativer Vertiefung, im Pali-Kanon als Pfad der Konzentration beschrieben. Im Ultrahochfeld-fMRT als großräumige Reorganisation funktioneller Netzwerke und Auflösung der kortikalen Hierarchie messbar.",
+    "related_concepts": [
+      {
+        "id": "nirodha-samapatti",
+        "relation": "vertieft-zu"
+      },
+      {
+        "id": "nichtduales-gewahrsein",
+        "relation": "verwandt-mit"
+      }
+    ],
+    "maturity": "etabliert"
   },
   {
     "id": "nichtduales-gewahrsein",
     "label": {
-      "original": "अद्वैत / རིགས་པ",
-      "translit": "Advaita / Rigpa",
+      "original": "अद्वैत · རིག་པ",
+      "translit": "Advaita · Rigpa",
       "de": "Nichtduales Gewahrsein",
       "en": "Non-Dual Awareness"
     },
-    "wikidata_qid": "Q486276",
+    "wikidata_qid": "Q2505322",
     "aufnahmegrund": {
-      "citation": "Josipovic 2014 (synthetisch zitiert) — Neural correlates of nondual awareness",
-      "doi": "10.0000/placeholder-nondual"
+      "citation": "Josipovic Z, Dinstein I, Weber J, Heeger DJ (2012). Influence of meditation on anti-correlated networks in the brain. Frontiers in Human Neuroscience 5, 183.",
+      "doi": "10.3389/fnhum.2011.00183"
     },
-    "traditions": ["Advaita Vedānta", "Dzogchen"],
-    "summary": "Zustand des Subjekt-Objekt-Kollabierens, in Advaita Vedānta und Dzogchen unter verschiedenen Termini beschrieben. Konzept-Disambiguierung über Traditionen relevant.",
-    "placeholder": true
+    "traditions": [
+      "Advaita Vedānta",
+      "Dzogchen",
+      "Zen"
+    ],
+    "summary": "Zustand des Subjekt-Objekt-Kollabierens, in mehreren Traditionen unter verschiedenen Termini beschrieben. Auf neuronaler Ebene als Entspannung der antikorrelierten Beziehung zwischen Default Mode Network und dorsalem Aufmerksamkeitsnetzwerk dokumentiert.",
+    "related_concepts": [
+      {
+        "id": "ich-aufloesung",
+        "relation": "korreliert-mit"
+      },
+      {
+        "id": "dmn-suppression",
+        "relation": "operationalisiert-durch"
+      }
+    ],
+    "maturity": "etabliert"
   },
   {
     "id": "nirodha-samapatti",
     "label": {
       "original": "निरोधसमापत्ति",
       "translit": "Nirodha Samāpatti",
-      "de": "Erlangung des Aufhörens",
+      "de": "Erlangung des Erlöschens",
       "en": "Attainment of Cessation"
     },
-    "wikidata_qid": null,
+    "wikidata_qid": "Q17039003",
     "aufnahmegrund": {
-      "citation": "Anālayo 2017 (synthetisch zitiert) — Attainment of cessation in Theravāda meditation manuals",
-      "doi": "10.0000/placeholder-nirodha"
+      "citation": "Bodhi (2011) für die traditionsgeschichtliche Verankerung im Pali-Kanon; vollständige Klassifikationsreferenz (Sparby & Sacchet) wird in Iteration 2 ergänzt nach Deep-Research-Ergebnis.",
+      "doi": null
     },
-    "traditions": ["Theravāda"],
-    "summary": "Tiefer meditativer Zustand mit dokumentiertem Stillstand vitaler Funktionen. Methodisch heikle Empirie wegen schwerer Reproduzierbarkeit unter Laborbedingungen.",
-    "placeholder": true
+    "traditions": [
+      "Theravāda"
+    ],
+    "summary": "Tiefer meditativer Zustand jenseits der achten Versenkungsstufe, mit dokumentiertem willentlichem Aussetzen von Bewusstseinsfunktionen. Methodisch heikle Empirie wegen schwerer Reproduzierbarkeit unter Laborbedingungen.",
+    "related_concepts": [
+      {
+        "id": "jhana",
+        "relation": "vertieft-aus"
+      }
+    ],
+    "maturity": "etabliert"
   },
   {
     "id": "dmn-suppression",
     "label": {
       "original": "—",
-      "translit": "DMN-Suppression",
+      "translit": "Default Mode Network Suppression",
       "de": "Suppression des Default Mode Network",
       "en": "Default Mode Network Suppression"
     },
-    "wikidata_qid": "Q4137055",
+    "wikidata_qid": "Q1182555",
     "aufnahmegrund": {
-      "citation": "Brewer et al. 2011 (synthetisch zitiert) — Meditation experience is associated with differences in default mode network activity",
-      "doi": "10.0000/placeholder-dmn"
+      "citation": "Carhart-Harris RL, Friston KJ (2019). REBUS and the anarchic brain — toward a unified model of the brain action of psychedelics. Pharmacological Reviews 71(3), 316–344.",
+      "doi": "10.1124/pr.118.017160"
     },
     "traditions": [],
-    "summary": "Rein empirisches Konzept aus der Neurowissenschaft. Hat absichtlich keinen historischen Quelltext, demonstriert dass das Modell auch empirisch-deskriptive Phänomene trägt.",
-    "placeholder": true
+    "summary": "Rein empirisches Konzept aus der Neurowissenschaft. Hat selbst keine historische Texttradition, ist aber operationales Korrelat traditionsbasierter Selbstauflösungs-Konzepte. Die historische Verankerung läuft über die Eltern-Konzepte Nichtduales Gewahrsein und Ich-Auflösung.",
+    "related_concepts": [
+      {
+        "id": "nichtduales-gewahrsein",
+        "relation": "operationalisiert"
+      },
+      {
+        "id": "ich-aufloesung",
+        "relation": "operationalisiert"
+      }
+    ],
+    "maturity": "etabliert"
+  },
+  {
+    "id": "ich-aufloesung",
+    "label": {
+      "original": "—",
+      "translit": "Ego Death · Self-Dissolution",
+      "de": "Ich-Auflösung · Ego-Tod",
+      "en": "Ego Death"
+    },
+    "wikidata_qid": "Q5348168",
+    "aufnahmegrund": {
+      "citation": "Timmermann C, Bauer PR, Gosseries O, Vollenweider F, Laureys S, Singer T, Antonova E, Lutz A (2023). A neurophenomenological approach to non-ordinary states of consciousness — hypnosis, meditation, and psychedelics. Trends in Cognitive Sciences 27(2), 139–159; Carhart-Harris RL, Leech R, Hellyer PJ et al. (2014). The entropic brain. Frontiers in Human Neuroscience 8, 20.",
+      "doi": "10.3389/fnhum.2014.00020"
+    },
+    "traditions": [
+      "Psychedelika-Forschung",
+      "Zen",
+      "Christliche Mystik"
+    ],
+    "summary": "Erfahrung des vollständigen Selbstverlustes, dokumentiert sowohl in tiefen Meditationszuständen als auch unter Psychedelika. Geteilte Maße (Signalkomplexität, DMN-Reduktion) bilden die methodische Brücke zwischen beiden Forschungssträngen, ohne dass ein direkter experimenteller Vergleich derselben Personen existiert.",
+    "related_concepts": [
+      {
+        "id": "nichtduales-gewahrsein",
+        "relation": "korreliert-mit"
+      },
+      {
+        "id": "dmn-suppression",
+        "relation": "operationalisiert-durch"
+      }
+    ],
+    "maturity": "etabliert"
+  },
+  {
+    "id": "mbsr",
+    "label": {
+      "original": "—",
+      "translit": "Mindfulness-Based Stress Reduction",
+      "de": "Achtsamkeitsbasierte Stressreduktion (MBSR)",
+      "en": "Mindfulness-Based Stress Reduction"
+    },
+    "wikidata_qid": "Q341036",
+    "aufnahmegrund": {
+      "citation": "Hoge EA, Bui E, Mete M, Dutton MA, Baker AW, Simon NM (2023). Mindfulness-based stress reduction vs escitalopram for the treatment of adults with anxiety disorders — TAME. JAMA Psychiatry 80(1), 13–21.",
+      "doi": "10.1001/jamapsychiatry.2022.3679"
+    },
+    "traditions": [
+      "Säkulare Achtsamkeit",
+      "Klinische Psychologie"
+    ],
+    "summary": "Säkulares Achtweekenprogramm von Jon Kabat-Zinn (1979), ursprünglich für Schmerzpatientinnen, inzwischen die meistuntersuchte klinische Achtsamkeitsintervention. Methodisch Vipassanā-orientiert, nicht Jhāna-fokussiert. Bildet die erste klinisch-psychologische Welle der Meditationsforschung.",
+    "related_concepts": [
+      {
+        "id": "nichtduales-gewahrsein",
+        "relation": "verwandt-mit"
+      }
+    ],
+    "maturity": "etabliert"
   },
   {
     "id": "hesychasm",
     "label": {
       "original": "Ἡσυχασμός",
-      "translit": "Hesychasmos",
-      "de": "Hesychasmus / Herzensgebet",
-      "en": "Hesychasm / Prayer of the Heart"
+      "translit": "Hēsychasmos",
+      "de": "Hesychasmus · Herzensgebet",
+      "en": "Hesychasm · Prayer of the Heart"
     },
-    "wikidata_qid": "Q207631",
+    "wikidata_qid": "Q629589",
     "aufnahmegrund": {
-      "citation": "Louth 2015 (synthetisch zitiert) — Hesychast prayer and contemporary contemplative research",
-      "doi": "10.0000/placeholder-hesychasm"
+      "citation": "Rubinart M, Fornieles A, Deus J (2017). The Psychological Impact of the Jesus Prayer among Non-Conventional Catholics. Pastoral Psychology 66(4), 487–504. Engste empirische Operationalisierung hesychasmus-naher Praxis in westkirchlich-katholischer Population; monastisch-orthodoxer Hesychasmus selbst empirisch noch nicht erfasst (Templeton-WCT-Projekt 30294 in Pilotphase).",
+      "doi": "10.1007/s11089-017-0762-4"
     },
-    "traditions": ["Orthodoxes Christentum", "Christliche Mystik"],
-    "summary": "Stille kontemplative Praxis der orthodoxen Tradition, methodisch über Herzfrequenzvariabilität und Atemmuster empirisch untersucht.",
-    "placeholder": true
+    "traditions": [
+      "Orthodoxes Christentum",
+      "Christliche Mystik"
+    ],
+    "summary": "Stille kontemplative Praxis der orthodoxen Tradition, methodisch über Atemtechnik, kontinuierliches Jesusgebet und Herzfokussierung beschrieben. Philokalia als historische Quellenbasis. Authentische Hesychasten leben monastisch-orthodox und sind labor-empirisch kaum zugänglich; das engste Pendant ist die Rubinart-Studie zum Jesusgebet in katholischer Population. Ein 4-Arm-RCT am Brigham and Women's Hospital (Templeton-Projekt 30294, Constas/Ramseyer) baut derzeit ein manualisiertes Hesychasmus-Curriculum mit Athos-Mönchen auf.",
+    "related_concepts": [
+      {
+        "id": "nichtduales-gewahrsein",
+        "relation": "verwandt-mit"
+      }
+    ],
+    "maturity": "beginnend"
+  },
+  {
+    "id": "sufi-dhikr",
+    "label": {
+      "original": "ذِكْر",
+      "translit": "Dhikr",
+      "de": "Sufi-Dhikr · Gottesgedenken",
+      "en": "Sufi Dhikr · Remembrance of God"
+    },
+    "wikidata_qid": "Q948437",
+    "aufnahmegrund": {
+      "citation": "Saraei M, Newberg AB, Hosseini SR, Bayati T, Batouli SAH (2023). Comparing the three states of Dhikr, meditation, and thinking about God — an fMRI study. Religion, Brain & Behavior 13(1), 5–17.",
+      "doi": "10.1080/2153599X.2022.2108888"
+    },
+    "traditions": [
+      "Sufismus",
+      "Islamische Mystik"
+    ],
+    "summary": "Wiederholungsgebet in islamischer Mystik, neurowissenschaftlich erstmals 2023 im direkten fMRI-Vergleich mit säkularer Meditation und freiem Gottesdenken charakterisiert. Eigenes Aktivierungsmuster gegenüber Mindfulness, das eine genuin islamische Variante kontemplativer Praxis neurowissenschaftlich plausibel macht.",
+    "related_concepts": [
+      {
+        "id": "hesychasm",
+        "relation": "verwandt-mit"
+      },
+      {
+        "id": "mbsr",
+        "relation": "verwandt-mit"
+      }
+    ],
+    "maturity": "berührt"
+  },
+  {
+    "id": "qigong",
+    "label": {
+      "original": "氣功",
+      "translit": "Qìgōng",
+      "de": "Qigong · daoistische Kultivierung",
+      "en": "Qigong · Daoist Cultivation"
+    },
+    "wikidata_qid": "Q204368",
+    "aufnahmegrund": {
+      "citation": "Henz D, Schöllhorn WI (2017). EEG Brain Activity in Dynamic Health Qigong Training — Same Effects for Mental Practice and Physical Training? Frontiers in Psychology 8, 154. Health-Qigong als breitere daoistische Kultivierungs-Familie; klassische Neidan-Innere-Alchemie selbst empirisch noch nicht peer-reviewt erfasst.",
+      "doi": "10.3389/fpsyg.2017.00154"
+    },
+    "traditions": [
+      "Daoismus",
+      "Chinesische Innere Kultivierung"
+    ],
+    "summary": "Bewegungs- und Atempraxis mit kontemplativem Kern, methodisch zwischen Meditation und Bewegung. Erzeugt spezifische EEG-Spektralprofile (Theta- und Alpha-Anstiege), vergleichbar zwischen mentalem und physischem Üben. Klassische Neidan-Innere-Alchemie (Jing → Qi → Shen, mikrokosmischer Umlauf, Jindan-Bildung) bleibt empirisch eine Lücke und ist als zweites evidence-gap-Konzept geführt.",
+    "related_concepts": [],
+    "maturity": "berührt"
+  },
+  {
+    "id": "neidan-gap",
+    "label": {
+      "original": "內丹",
+      "translit": "Nèidān",
+      "de": "Innere Alchemie · evidence gap",
+      "en": "Inner Alchemy · evidence gap"
+    },
+    "wikidata_qid": null,
+    "aufnahmegrund": {
+      "citation": "Kein peer-reviewter empirischer Beleg für klassische Neidan-Praxis vorhanden. Theoretisch-historisch dokumentiert über Pregadio-Forschung und Komjathy-Dissertation; empirisch eine offene Lücke. Als evidence-gap-Konzept im Modell sichtbar, um die Coverage-Verzerrung explizit zu machen.",
+      "doi": null
+    },
+    "traditions": [
+      "Daoismus",
+      "Esoterischer Daoismus"
+    ],
+    "summary": "Klassische daoistische Innere Alchemie. Im aktuellen Forschungsstand ohne peer-reviewte empirische Untersuchung der Praxis selbst. Vier Gründe für die empirische Unsichtbarkeit: Eingebundenheit in Liturgie und Schriftstudium, kleine abgeschlossene Lehrer-Schüler-Linien, theologische Reserve gegen Outcome-Denken, fehlende Manualisierung. Theoretisch-historisch dokumentiert über Pregadio-Forschung und Komjathy-Dissertation, aber explizit nicht als empirischer Beleg geführt.",
+    "related_concepts": [
+      {
+        "id": "qigong",
+        "relation": "verwandt-mit"
+      }
+    ],
+    "maturity": "fehlend"
+  },
+  {
+    "id": "kabbalah-gap",
+    "label": {
+      "original": "התבודדות · התבוננות",
+      "translit": "Hitbodedut · Hitbonenut",
+      "de": "Jüdisch-mystische Meditation · evidence gap",
+      "en": "Jewish Mystical Meditation · evidence gap"
+    },
+    "wikidata_qid": null,
+    "aufnahmegrund": {
+      "citation": "Systematische Suche (PubMed, PsycINFO, Google Scholar, ResearchGate) ergab keinen peer-reviewten empirischen Beleg post-2015 für genuin kabbalistische oder chassidische Meditationspraxis. Nächstliegende Arbeit Paz & Davidovitch 2025 untersucht säkulares MBSR in jüdischer Population, nicht kabbalistische Praxis selbst. Soft negative: anglophone Indexierung möglicherweise nicht abschließend, hebräisch- oder jiddisch-sprachige Quellen wären zu prüfen.",
+      "doi": null
+    },
+    "traditions": [
+      "Kabbala",
+      "Chassidismus",
+      "Jüdische Mystik"
+    ],
+    "summary": "Hitbodedut (Breslov) und Hitbonenut (Chabad) als zentrale jüdisch-mystische Meditationstechniken. Im aktuellen Forschungsstand ohne peer-reviewte empirische Untersuchung der Tradition selbst. Fünf Gründe für die empirische Unsichtbarkeit: Kleine, religiös abgegrenzte Praktizierenden-Population (Breslov, Chabad, Modern-Orthodox-Renewal); kein manualisiertes Curriculum (Hitbodedut ist definitionsgemäß spontan und unstrukturiert); religiöse Sensibilität (Geschlechter- und Schabbat-Normen erschweren Laborzugang); disziplinärer Bias der Religionsforschung; konzeptuelle Verwaschung durch Substitution mit MBSR in jüdischen Populationen. Religionshistorisch über Idel, Garb, Fishbane, Reiser, Persico dokumentiert — diese Quellen sind explizit nicht-empirisch markiert. Soft negative: hebräisch- oder jiddisch-sprachige Quellen wären zusätzlich zu prüfen.",
+    "related_concepts": [],
+    "maturity": "fehlend"
   }
 ]

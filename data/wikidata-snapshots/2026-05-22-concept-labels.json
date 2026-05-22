@@ -1,0 +1,162 @@
+{
+  "head": {
+    "vars": [
+      "concept",
+      "conceptLabel",
+      "conceptDescription",
+      "dewiki",
+      "enwiki"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "concept": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5348168"
+        },
+        "enwiki": {
+          "type": "uri",
+          "value": "https://en.wikipedia.org/wiki/Ego_death"
+        },
+        "conceptLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Ego-Tod"
+        },
+        "conceptDescription": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Bewusstseinszustand; Verlust der Selbstidentität"
+        }
+      },
+      {
+        "concept": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q6577829"
+        },
+        "enwiki": {
+          "type": "uri",
+          "value": "https://en.wikipedia.org/wiki/Dhyana_in_Buddhism"
+        },
+        "conceptLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Dhyana"
+        },
+        "conceptDescription": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "höhere Bewusstseinszustände in der Meditation des Raja Yoga nach Patanjali"
+        },
+        "dewiki": {
+          "type": "uri",
+          "value": "https://de.wikipedia.org/wiki/Dhyana"
+        }
+      },
+      {
+        "concept": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q341036"
+        },
+        "enwiki": {
+          "type": "uri",
+          "value": "https://en.wikipedia.org/wiki/Mindfulness-based_stress_reduction"
+        },
+        "conceptLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Achtsamkeitsbasierte Stressreduktion"
+        },
+        "conceptDescription": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Programm zur Stressbewältigung"
+        },
+        "dewiki": {
+          "type": "uri",
+          "value": "https://de.wikipedia.org/wiki/Achtsamkeitsbasierte_Stressreduktion"
+        }
+      },
+      {
+        "concept": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q629589"
+        },
+        "enwiki": {
+          "type": "uri",
+          "value": "https://en.wikipedia.org/wiki/Hesychasm"
+        },
+        "conceptLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Hesychasmus"
+        },
+        "conceptDescription": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Form der Spiritualität"
+        },
+        "dewiki": {
+          "type": "uri",
+          "value": "https://de.wikipedia.org/wiki/Hesychasmus"
+        }
+      },
+      {
+        "concept": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q1182555"
+        },
+        "enwiki": {
+          "type": "uri",
+          "value": "https://en.wikipedia.org/wiki/Default_mode_network"
+        },
+        "conceptLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Default Mode Network"
+        },
+        "conceptDescription": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Ruhezustandsnetzwerk"
+        },
+        "dewiki": {
+          "type": "uri",
+          "value": "https://de.wikipedia.org/wiki/Default_Mode_Network"
+        }
+      },
+      {
+        "concept": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2505322"
+        },
+        "enwiki": {
+          "type": "uri",
+          "value": "https://en.wikipedia.org/wiki/Nondualism"
+        },
+        "conceptLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "nondualism"
+        },
+        "conceptDescription": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "mature state of consciousness transcending dualism"
+        }
+      },
+      {
+        "concept": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17039003"
+        },
+        "conceptLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "nirodha-samāpatti"
+        }
+      }
+    ]
+  }
+}

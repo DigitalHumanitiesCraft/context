@@ -1,0 +1,28 @@
+{
+  "snapshots": [
+    {
+      "file": "2026-05-22-works-by-qid.json",
+      "query": "works-by-qid.rq",
+      "date": "2026-05-22",
+      "endpoint": "https://query.wikidata.org/sparql",
+      "status": "live",
+      "bindings": 6
+    },
+    {
+      "file": "2026-05-22-repositories.json",
+      "query": "repositories.rq",
+      "date": "2026-05-22",
+      "endpoint": "https://query.wikidata.org/sparql",
+      "status": "live",
+      "bindings": 7
+    },
+    {
+      "file": "2026-05-22-concept-labels.json",
+      "query": "concept-labels.rq",
+      "date": "2026-05-22",
+      "endpoint": "https://query.wikidata.org/sparql",
+      "status": "live",
+      "bindings": 7
+    }
+  ]
+}

@@ -17,7 +17,7 @@ Lies [`knowledge/design.md`](knowledge/design.md) als Wertequelle. Die folgenden
 
 ## Vor Datenmodellierung
 
-Lies [`knowledge/data.md`](knowledge/data.md). Pflichtfelder der fünf Knotentypen sind dort dokumentiert. Konzept-Knoten tragen mehrsprachige Labels (Originalschrift, Transliteration, Übersetzung) und einen `aufnahmegrund` als Referenz auf wissenschaftliche Sekundärliteratur. Ohne Aufnahmegrund kein Eintrag.
+Lies [`knowledge/data.md`](knowledge/data.md). Pflichtfelder der sechs Knotentypen (Konzept, Werk, Repräsentation, Repositorium, Studie, Knotenpunkt-Referenz) sind dort dokumentiert. Konzept-Knoten tragen mehrsprachige Labels (Originalschrift, Transliteration, Übersetzung) und einen `aufnahmegrund` als Referenz auf wissenschaftliche Sekundärliteratur. Ohne Aufnahmegrund kein Eintrag (außer Gap-Knoten mit `maturity: fehlend`, die eine kuratierte Begründung der Unsichtbarkeit tragen).
 
 `id`-Werte sind stabil und werden nicht recycelt, auch wenn sich die Beschreibung ändert.
 

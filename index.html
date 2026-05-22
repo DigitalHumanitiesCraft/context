@@ -9,62 +9,43 @@
   <link rel="stylesheet" href="assets/base.css">
   <link rel="stylesheet" href="assets/components.css">
 </head>
-<body data-page="index">
+<body>
+
+<a class="skip-link" href="#main-content">Zum Hauptinhalt springen</a>
 
 <header class="site-header">
   <div class="container">
-    <a class="site-title" href="index.html">CONTEXT<span class="subtitle">Contemplative Corpora Graph</span></a>
-    <nav class="site-nav">
-      <a href="index.html" class="is-current">Konzepte</a>
-      <a href="about.html">Methodische Position</a>
+    <a class="site-title" href="#" aria-label="Zur Startseite">CONTEXT<span class="subtitle">Contemplative Corpora Graph</span></a>
+    <nav class="site-nav" aria-label="Hauptnavigation">
+      <a href="#" data-nav="home">Übersicht</a>
+      <a href="#aggregation" data-nav="aggregation">Audit</a>
+      <a href="#about" data-nav="about">Methodische Position</a>
       <a href="https://github.com/DigitalHumanitiesCraft/context" target="_blank" rel="noopener">Repo</a>
     </nav>
+    <div class="snapshot-badge" id="snapshot-badge" aria-live="polite" title="Datum der jüngsten Wikidata-Snapshot-Datei im Repo">
+      <span class="snapshot-label">Snapshot</span>
+      <span class="snapshot-date">…</span>
+    </div>
   </div>
 </header>
 
-<main>
+<nav class="breadcrumb" id="breadcrumb" aria-label="Brotkrumenpfad" hidden>
   <div class="container">
+    <ol id="breadcrumb-list"></ol>
+  </div>
+</nav>
 
-    <h1>Konzepte</h1>
-    <p class="lead">
-      Eintrittspunkt in CONTEXT. Jedes Konzept verbindet eine historische
-      Überlieferung mit empirischer Bewusstseinsforschung. Wählen Sie ein
-      Konzept aus, um die zweispaltige Brücken-Ansicht zu öffnen.
-    </p>
-
-    <div class="coverage-banner">
-      <span class="label">Hinweis</span>
-      <span class="text">
-        Synthetischer Platzhalter-Datensatz. Die faktische Abdeckung würde
-        der Erschließungslage folgen, nicht dem Anspruch. Latein, Griechisch
-        und klassisches Chinesisch sind in der Realität gut digitalisiert,
-        Arabisch und Tibetisch deutlich schlechter. Diese Verzerrung wird im
-        finalen Datensatz als Eigenschaft des Systems offengelegt.
-      </span>
+<main id="main-content" tabindex="-1">
+  <div class="container">
+    <div id="view-root" aria-live="polite">
+      <div class="state-loading">Lade Datenbestand …</div>
     </div>
-
-    <div class="filters">
-      <div class="filter-group">
-        <span class="legend">Tradition</span>
-        <div id="filters-traditions"></div>
-      </div>
-      <div class="filter-group">
-        <span class="legend">Evidenz</span>
-        <div id="filters-evidence"></div>
-      </div>
-      <span class="results-count" id="results-count"></span>
-    </div>
-
-    <ul class="concept-grid" id="concept-grid">
-      <li class="state-loading">Lade Konzepte …</li>
-    </ul>
-
   </div>
 </main>
 
 <footer class="site-footer">
   <div class="container">
-    <span>CONTEXT v0 · Prototyp 2026-05-22</span>
+    <span>CONTEXT v0 · Iteration 1 · 2026-05-22</span>
     <span>DigitalHumanitiesCraft · <a href="https://github.com/DigitalHumanitiesCraft/context" target="_blank" rel="noopener">GitHub</a></span>
   </div>
 </footer>

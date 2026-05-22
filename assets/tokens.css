@@ -14,6 +14,7 @@
   --color-evidence-strong:    #1f4e79;
   --color-evidence-limiting:  #7895b5;
   --color-evidence-critical:  #c6d3e0;
+  --color-evidence-adverse:   #a76b3a;
 
   --color-coverage-bg:    #f4ead4;
   --color-coverage-text:  #6b5520;
@@ -22,8 +23,8 @@
   --color-edition-icon:   #1f4e79;
   --color-facsimile-icon: #a76b3a;
 
-  --color-placeholder-bg:    #fbe7e2;
-  --color-placeholder-text:  #7a2a1c;
+  --color-gap-bg:    #fbe7e2;
+  --color-gap-text:  #7a2a1c;
 
   --font-serif: "Source Serif Pro", "Source Serif", Georgia, "Times New Roman", serif;
   --font-sans:  "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;

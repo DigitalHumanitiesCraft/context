@@ -1,92 +1,481 @@
 [
   {
-    "id": "study-jhana-fmri-2019",
-    "title": "Neural correlates of deep absorption states: an fMRT study of advanced Jhāna practitioners",
-    "authors": ["Hagerty, M.", "Isaacs, J.", "Brasington, L."],
-    "year": 2019,
-    "doi": "10.0000/placeholder-jhana-fmri",
-    "method": "fMRT",
+    "id": "chowdhury-2025",
+    "title": "Multimodal neurophenomenology of advanced concentration absorption meditation — an intensively sampled case study of Jhana",
+    "authors": [
+      "Chowdhury, Avijit",
+      "Bianciardi, Marta",
+      "Chapdelaine, Elizabeth",
+      "Riaz, Omar S.",
+      "Timmermann, Christopher",
+      "van Lutterveld, Remko",
+      "Sparby, Terje",
+      "Sacchet, Matthew D."
+    ],
+    "year": 2025,
+    "journal": "NeuroImage",
+    "doi": "10.1016/j.neuroimage.2024.120973",
+    "url": "https://doi.org/10.1016/j.neuroimage.2024.120973",
+    "method": "7T-fMRT plus EEG plus Phänomenologie",
+    "sample_type": "einzelfall",
+    "n": 1,
+    "domain": "meditation-research",
     "concept_id": "jhana",
     "evidence_type": "stützend",
     "provenance": {
-      "source": "Kurator-Eintrag, peer-reviewter Originalbefund",
+      "source": "Verifiziert aus Meditationsforschung-Wissensdokument (Pollin 2026)",
       "date": "2026-05-22"
     },
-    "placeholder": true
+    "summary": "Intensiv beprobte Einzelfallstudie an Daniel Ingram (über 23.000 Stunden Praxis). ACAM-J-Zustände zeigen verringerte netzwerkinterne Modularität, erhöhte globale Konnektivität, Auflösung der Trennung von Default-Mode- und visuellem Netzwerk, breitbandig verringerte Oszillationsleistung und erhöhte Signalkomplexität. Letztere korreliert mit dem glückseligen Erleben."
   },
   {
-    "id": "study-jhana-eeg-2021",
-    "title": "Cortical desynchronization in second Jhāna: EEG correlates of breath suspension",
-    "authors": ["Dor-Ziderman, Y.", "Ataria, Y."],
-    "year": 2021,
-    "doi": "10.0000/placeholder-jhana-eeg",
+    "id": "lutz-2004",
+    "title": "Long-term meditators self-induce high-amplitude gamma synchrony during mental practice",
+    "authors": [
+      "Lutz, Antoine",
+      "Greischar, Lawrence L.",
+      "Rawlings, Nancy B.",
+      "Ricard, Matthieu",
+      "Davidson, Richard J."
+    ],
+    "year": 2004,
+    "journal": "PNAS",
+    "doi": "10.1073/pnas.0407401101",
+    "url": "https://doi.org/10.1073/pnas.0407401101",
     "method": "EEG",
+    "sample_type": "vergleichsstudie",
+    "n": 8,
+    "domain": "meditation-research",
     "concept_id": "jhana",
-    "evidence_type": "einschränkend",
+    "evidence_type": "stützend",
     "provenance": {
-      "source": "Kurator-Eintrag, methodische Einschränkung dokumentiert",
+      "source": "Verifiziert aus Meditationsforschung-Wissensdokument (Pollin 2026)",
       "date": "2026-05-22"
     },
-    "placeholder": true
+    "summary": "Acht langjährige buddhistische Praktizierende gegen Kontrollen. Adepten erzeugen während nicht-dualer Compassion-Meditation anhaltende hochamplitudige Gamma-Band-Oszillationen (25–42 Hz) und Phasensynchronie. Ratio Gamma zu langsamer Aktivität bereits in der Ruhe-Baseline erhöht. Gründungsdokument der zweiten Forschungswelle."
   },
   {
-    "id": "study-nondual-phenomenology-2014",
-    "title": "Phenomenological mapping of non-dual awareness across traditions",
-    "authors": ["Josipovic, Z."],
-    "year": 2014,
-    "doi": "10.0000/placeholder-nondual",
-    "method": "Phänomenologie + fMRT",
+    "id": "josipovic-2012",
+    "title": "Influence of meditation on anti-correlated networks in the brain",
+    "authors": [
+      "Josipovic, Zoran",
+      "Dinstein, Ilan",
+      "Weber, Jochen",
+      "Heeger, David J."
+    ],
+    "year": 2012,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi": "10.3389/fnhum.2011.00183",
+    "url": "https://doi.org/10.3389/fnhum.2011.00183",
+    "method": "fMRT",
+    "sample_type": "vergleichsstudie",
+    "n": 20,
+    "domain": "meditation-research",
     "concept_id": "nichtduales-gewahrsein",
     "evidence_type": "stützend",
     "provenance": {
-      "source": "Kurator-Eintrag",
+      "source": "Verifiziert aus Meditationsforschung-Wissensdokument (Pollin 2026)",
       "date": "2026-05-22"
     },
-    "placeholder": true
+    "summary": "Untersucht zwei konkurrierende Großsysteme: ein extrinsisches System für Außenreize und das intrinsische Default Mode Network. Während nicht-dualen Gewahrseins lockert sich deren sonst antikorrelierte Wechselwirkung. Neuronales Korrelat der entspannten Innen-Außen-Trennung."
   },
   {
-    "id": "study-nirodha-respiration-2017",
-    "title": "Respiratory and metabolic markers during reported Nirodha Samāpatti",
-    "authors": ["Anālayo", "Kuan, T.-F."],
-    "year": 2017,
-    "doi": "10.0000/placeholder-nirodha",
-    "method": "Atmungsmessung + Metabolische Marker",
-    "concept_id": "nirodha-samapatti",
-    "evidence_type": "methodisch-kritisch",
+    "id": "ehmann-2025",
+    "title": "Mindfulness, cognition, and long-term meditators — toward a science of advanced meditation",
+    "authors": [
+      "Ehmann, Sebastian",
+      "Sezer, Idil",
+      "Treves, Isaac N.",
+      "Gabrieli, John D. E.",
+      "Sacchet, Matthew D."
+    ],
+    "year": 2025,
+    "journal": "Imaging Neuroscience",
+    "doi": "10.1162/IMAG.a.82",
+    "url": "https://doi.org/10.1162/IMAG.a.82",
+    "method": "Narrative Synthese",
+    "sample_type": "meta-analyse",
+    "n": null,
+    "domain": "meditation-research",
+    "concept_id": "nichtduales-gewahrsein",
+    "evidence_type": "stützend",
     "provenance": {
-      "source": "Kurator-Eintrag, Reproduzierbarkeit eingeschränkt",
+      "source": "Verifiziert aus Meditationsforschung-Wissensdokument (Pollin 2026)",
       "date": "2026-05-22"
     },
-    "placeholder": true
+    "summary": "Leitübersicht der dritten Forschungswelle. Einschluss ab 1.500 Stunden Praxis. Erhöhte Bottom-up-Aktivierung im Salience Network, reduzierte Furcht- und Amygdala-Aktivierung, willentlich dämpfbares Selbstgrenz-Erleben (rechter inferiorer Parietallappen). Konzept der neurophänomenologischen Gestalt — meditative Expertise als gesteigerte kognitive Integration."
   },
   {
-    "id": "study-dmn-meta-2020",
-    "title": "Default mode network suppression in long-term meditators: a meta-analysis",
-    "authors": ["Fox, K.", "Dixon, M.", "Christoff, K."],
-    "year": 2020,
-    "doi": "10.0000/placeholder-dmn-meta",
-    "method": "fMRT-Meta-Analyse",
+    "id": "carhart-harris-friston-2019",
+    "title": "REBUS and the anarchic brain — toward a unified model of the brain action of psychedelics",
+    "authors": [
+      "Carhart-Harris, Robin L.",
+      "Friston, Karl J."
+    ],
+    "year": 2019,
+    "journal": "Pharmacological Reviews",
+    "doi": "10.1124/pr.118.017160",
+    "url": "https://doi.org/10.1124/pr.118.017160",
+    "method": "Theoretisches Modell",
+    "sample_type": "theoriebildung",
+    "n": null,
+    "domain": "psychedelics-research",
     "concept_id": "dmn-suppression",
     "evidence_type": "stützend",
     "provenance": {
-      "source": "Kurator-Eintrag, Meta-Analyse über 12 Primärstudien",
+      "source": "Verifiziert aus Meditationsforschung-Wissensdokument (Pollin 2026)",
       "date": "2026-05-22"
     },
-    "placeholder": true
+    "summary": "Relaxed Beliefs Under Psychedelics. Psychedelika lockern die starre Steuerung durch übergeordnete Erwartungen, also genau die Verschiebung von höherer zu niedrigerer Ordnung. Theoretischer Rahmen, der DMN-Suppression als gemeinsamen Mechanismus von Meditation und Psychedelika erklärt."
   },
   {
-    "id": "study-hesychasm-hrv-2018",
-    "title": "Heart rate variability during continuous Jesus Prayer practice",
-    "authors": ["Kallistos", "Mavridis, I."],
-    "year": 2018,
-    "doi": "10.0000/placeholder-hesychasm-hrv",
-    "method": "HRV",
+    "id": "timmermann-2023-tics",
+    "title": "A neurophenomenological approach to non-ordinary states of consciousness — hypnosis, meditation, and psychedelics",
+    "authors": [
+      "Timmermann, Christopher",
+      "Bauer, Prisca R.",
+      "Gosseries, Olivia",
+      "Vollenweider, Franz",
+      "Laureys, Steven",
+      "Singer, Tania",
+      "Antonova, Elena",
+      "Lutz, Antoine"
+    ],
+    "year": 2023,
+    "journal": "Trends in Cognitive Sciences",
+    "doi": "10.1016/j.tics.2022.11.006",
+    "url": "https://doi.org/10.1016/j.tics.2022.11.006",
+    "method": "Übersichtsarbeit, neurophänomenologisch",
+    "sample_type": "übersichtsarbeit",
+    "n": null,
+    "domain": "psychedelics-research",
+    "concept_id": "ich-aufloesung",
+    "evidence_type": "stützend",
+    "provenance": {
+      "source": "Verifiziert aus Meditationsforschung-Wissensdokument (Pollin 2026)",
+      "date": "2026-05-22"
+    },
+    "summary": "Neurophänomenologischer Vergleich dreier außergewöhnlicher Bewusstseinszustände. Gemeinsamer Nenner ist das Default Mode Network. Sowohl unter Psychedelika als auch in selbstauflösenden Meditationsformen ist dessen Aktivität reduziert. Methodische Brücke zwischen Kontemplations- und Psychedelika-Forschung."
+  },
+  {
+    "id": "carhart-harris-2014",
+    "title": "The entropic brain — a theory of conscious states informed by neuroimaging research with psychedelic drugs",
+    "authors": [
+      "Carhart-Harris, Robin L.",
+      "Leech, Robert",
+      "Hellyer, Peter J.",
+      "Shanahan, Murray",
+      "Feilding, Amanda",
+      "Tagliazucchi, Enzo",
+      "Chialvo, Dante R.",
+      "Nutt, David"
+    ],
+    "year": 2014,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi": "10.3389/fnhum.2014.00020",
+    "url": "https://doi.org/10.3389/fnhum.2014.00020",
+    "method": "Theoretisches Modell, fMRT-basiert",
+    "sample_type": "theoriebildung",
+    "n": null,
+    "domain": "psychedelics-research",
+    "concept_id": "ich-aufloesung",
+    "evidence_type": "stützend",
+    "provenance": {
+      "source": "Verifiziert aus Meditationsforschung-Wissensdokument (Pollin 2026)",
+      "date": "2026-05-22"
+    },
+    "summary": "Entropic-Brain-Hypothese. Psychedelische Zustände gehen mit ungeordneterer, freierer Hirnaktivität einher, messbar als erhöhte Signalkomplexität. Theoretisches Fundament, das die Bliss-Befunde der Ingram-Studie an die Psychedelika-Forschung anschließt."
+  },
+  {
+    "id": "hoge-2023",
+    "title": "Mindfulness-based stress reduction vs escitalopram for the treatment of adults with anxiety disorders — a randomized clinical trial",
+    "authors": [
+      "Hoge, Elizabeth A.",
+      "Bui, Eric",
+      "Mete, Mihriye",
+      "Dutton, Mary Ann",
+      "Baker, Amanda W.",
+      "Simon, Naomi M."
+    ],
+    "year": 2023,
+    "journal": "JAMA Psychiatry",
+    "doi": "10.1001/jamapsychiatry.2022.3679",
+    "url": "https://doi.org/10.1001/jamapsychiatry.2022.3679",
+    "method": "RCT, Nichtunterlegenheit",
+    "sample_type": "rct",
+    "n": 276,
+    "domain": "clinical-trial",
+    "concept_id": "mbsr",
+    "evidence_type": "stützend",
+    "provenance": {
+      "source": "Verifiziert aus Meditationsforschung-Wissensdokument (Pollin 2026)",
+      "date": "2026-05-22"
+    },
+    "summary": "TAME-Studie. Erstmals direkter Kopf-an-Kopf-Vergleich von 8-Wochen-MBSR gegen flexibel dosiertes Escitalopram bei Angststörungen. MBSR am Achtwochen-Endpunkt nicht unterlegen. Klinische Wirksamkeit auf Erstlinien-Pharmakotherapie-Niveau, mit deutlich besserer Langzeit-Adhärenz."
+  },
+  {
+    "id": "britton-2021",
+    "title": "Defining and measuring meditation-related adverse effects in mindfulness-based programs",
+    "authors": [
+      "Britton, Willoughby B.",
+      "Lindahl, Jared R.",
+      "Cooper, David J.",
+      "Canby, Nicholas K.",
+      "Palitsky, Roman"
+    ],
+    "year": 2021,
+    "journal": "Clinical Psychological Science",
+    "doi": "10.1177/2167702621996340",
+    "url": "https://doi.org/10.1177/2167702621996340",
+    "method": "MedEx-I Interview, klinische Stichprobe",
+    "sample_type": "klinisch",
+    "n": 96,
+    "domain": "clinical-trial",
+    "concept_id": "mbsr",
+    "additional_concepts": [
+      "jhana",
+      "nichtduales-gewahrsein",
+      "nirodha-samapatti",
+      "ich-aufloesung"
+    ],
+    "evidence_type": "nebenwirkungen-dokumentierend",
+    "provenance": {
+      "source": "Verifiziert aus Meditationsforschung-Wissensdokument (Pollin 2026); Stichprobenquelle korrigiert (nicht repräsentativ, sondern klinisch)",
+      "date": "2026-05-22"
+    },
+    "summary": "Methodische Referenzstudie zu unerwünschten Effekten von Achtsamkeitsinterventionen. 96 Teilnehmende an drei MBCT-Varianten. 83 Prozent berichten mindestens einen Effekt, 58 Prozent negativ valenziert, 37 Prozent mit Funktionsauswirkung, 6 bis 14 Prozent anhaltend negativ. Kritik an gängiger Erfassung: weniger als 20 Prozent der Meditationsstudien messen unerwünschte Effekte aktiv."
+  },
+  {
+    "id": "goldberg-2022",
+    "title": "Prevalence of meditation-related adverse effects in a population-based sample in the United States",
+    "authors": [
+      "Goldberg, Simon B.",
+      "Lam, Sin U.",
+      "Britton, Willoughby B.",
+      "Davidson, Richard J."
+    ],
+    "year": 2022,
+    "journal": "Psychotherapy Research",
+    "doi": "10.1080/10503307.2021.1933646",
+    "url": "https://doi.org/10.1080/10503307.2021.1933646",
+    "method": "Population-based Survey",
+    "sample_type": "bevölkerungsrepräsentativ",
+    "n": 953,
+    "domain": "clinical-trial",
+    "concept_id": "mbsr",
+    "additional_concepts": [
+      "jhana",
+      "nichtduales-gewahrsein",
+      "nirodha-samapatti",
+      "ich-aufloesung"
+    ],
+    "evidence_type": "nebenwirkungen-dokumentierend",
+    "provenance": {
+      "source": "Verifiziert aus Meditationsforschung-Wissensdokument (Pollin 2026)",
+      "date": "2026-05-22"
+    },
+    "summary": "Bevölkerungsbasierte Erhebung in den USA. 470 mit Meditationserfahrung, 50 Prozent berichten mindestens ein spezifisches Item, 10,6 Prozent funktionelle Beeinträchtigung, 1,2 Prozent anhaltend über mindestens einen Monat. Angst, traumatisches Wiedererleben und emotionale Sensitivität am häufigsten. Kindheitsadversität mit erhöhtem Risiko assoziiert."
+  },
+  {
+    "id": "kuyken-2022",
+    "title": "Effectiveness and cost-effectiveness of universal school-based mindfulness training compared with normal school provision — the MYRIAD cluster randomised controlled trial",
+    "authors": [
+      "Kuyken, Willem",
+      "Ball, Susan",
+      "Crane, Catherine",
+      "MYRIAD Team"
+    ],
+    "year": 2022,
+    "journal": "Evidence-Based Mental Health",
+    "doi": "10.1136/ebmental-2021-300396",
+    "url": "https://doi.org/10.1136/ebmental-2021-300396",
+    "method": "Cluster-RCT",
+    "sample_type": "rct",
+    "n": 8376,
+    "domain": "school-based",
+    "concept_id": "nichtduales-gewahrsein",
+    "evidence_type": "einschränkend",
+    "provenance": {
+      "source": "Verifiziert aus Meditationsforschung-Wissensdokument (Pollin 2026)",
+      "date": "2026-05-22"
+    },
+    "summary": "MYRIAD-Studie, bislang größte bevölkerungsbasierte RCT zu schulbasierter Achtsamkeit in früher Adoleszenz. Keine signifikanten Effekte auf depressive Symptome, sozial-emotionale Funktion, Wohlbefinden, Angst und Achtsamkeit. In gefährdeten Subgruppen teils nachteilige Effekte. Auffällig: Schulklima verbesserte sich."
+  },
+  {
+    "id": "templeton-wct-30294",
+    "title": "Toward evidence-based spiritual therapeutics — a randomized controlled trial of Hesychastic prayer (laufende Pilot- und Längsschnitt-Datenerhebung, keine peer-reviewten Outcomes)",
+    "authors": [
+      "Ferguson, M.",
+      "Case, L.",
+      "Constas, M.",
+      "Ramseyer, M."
+    ],
+    "year": 2026,
+    "journal": "Templeton World Charity Foundation Project 30294, Neurospirituality Lab BWH/Harvard",
+    "doi": null,
+    "url": "https://prayer.science",
+    "method": "Vier-Arm-RCT (Hesychasmus vs Anapanasati-Mindfulness vs default prayer vs Wait-List), 10-Min-Audio-Lehrintervention, 20 min × 3/Woche",
+    "sample_type": "rct",
+    "n": null,
+    "domain": "clinical-trial",
+    "concept_id": "hesychasm",
+    "evidence_type": "laufend",
+    "provenance": {
+      "source": "Deep-Research-Auftrag 2026-05-22; Watchlist-Knoten, halbjährlicher Re-Check empfohlen",
+      "date": "2026-05-22"
+    },
+    "summary": "LAUFENDE STUDIE OHNE PEER-REVIEWTE ERGEBNISSE. Templeton World Charity Foundation Projekt 30294 am Neurospirituality Lab (Brigham and Women's Hospital, Harvard Medical School). Das Team baut mit Athos-Mönchen (Fr. Maximos Constas, Max Ramseyer) ein manualisiertes Hesychasmus-Curriculum auf — bislang existiert kein dosis-kontrolliertes Protokoll wie bei MBSR. Watchlist-Knoten: Re-Check halbjährlich auf erste Publikationen."
+  },
+  {
+    "id": "rubinart-2017",
+    "title": "The Psychological Impact of the Jesus Prayer among Non-Conventional Catholics",
+    "authors": [
+      "Rubinart, Marta",
+      "Fornieles, Albert",
+      "Deus, Joan"
+    ],
+    "year": 2017,
+    "journal": "Pastoral Psychology",
+    "doi": "10.1007/s11089-017-0762-4",
+    "url": "https://doi.org/10.1007/s11089-017-0762-4",
+    "method": "Quasi-experimentell, Pre/Post/Follow-up, SCL-90-R, TCI-R, POMS",
+    "sample_type": "klinisch",
+    "n": 11,
+    "domain": "clinical-trial",
     "concept_id": "hesychasm",
     "evidence_type": "stützend",
     "provenance": {
-      "source": "Kurator-Eintrag",
+      "source": "Deep-Research-Auftrag 2026-05-22; CONTEXT-Recherche-Bericht, Auftrag 1",
       "date": "2026-05-22"
     },
-    "placeholder": true
+    "summary": "Pilotstudie zur zweimonatigen Jesusgebet-Praxis bei spanischen Katholiken. Signifikante Senkung von SCL-90-R-Interpersoneller Sensitivität (p=.009) und Phobischer Angst (p=.03); eine 25-Minuten-Sitzung reduziert POMS-Tension (d=1.03) und Fatigue (d=1.39) mit großen Effektstärken. Operationalisiert hesychasmus-nahe Praxis in westkirchlich-katholischer Population; das engste empirische Pendant zum monastischen Hesychasmus."
+  },
+  {
+    "id": "sparby-sacchet-2022",
+    "title": "Defining Meditation: Foundations for an Activity-Based Phenomenological Classification System",
+    "authors": [
+      "Sparby, Terje",
+      "Sacchet, Matthew D."
+    ],
+    "year": 2022,
+    "journal": "Frontiers in Psychology",
+    "doi": "10.3389/fpsyg.2021.795077",
+    "url": "https://doi.org/10.3389/fpsyg.2021.795077",
+    "method": "Konzeptuelle Klassifikation",
+    "sample_type": "theoriebildung",
+    "n": null,
+    "domain": "meditation-research",
+    "concept_id": "nirodha-samapatti",
+    "additional_concepts": [
+      "jhana",
+      "nichtduales-gewahrsein"
+    ],
+    "evidence_type": "stützend",
+    "provenance": {
+      "source": "Deep-Research-Auftrag 2026-05-22; CONTEXT-Recherche-Bericht, Auftrag 2",
+      "date": "2026-05-22"
+    },
+    "summary": "Klassifikationsbasis der modernen Meditationsforschung. Alle Techniken lassen sich auf wenige phänomenologische Grundaktivitäten zurückführen (Fokussieren, Loslassen, Imaginieren, Bewegen). Aus diesem Aktivitätsmodell wird ein integratives Klassifikationssystem abgeleitet, das klassische, zeitgenössische und holistische Taxonomien synthetisiert und Operationalisierbarkeit verbessert. CC BY 4.0, OA."
+  },
+  {
+    "id": "sparby-sacchet-2024",
+    "title": "Toward a Unified Account of Advanced Concentrative Absorption Meditation — a Systematic Definition and Classification of Jhāna",
+    "authors": [
+      "Sparby, Terje",
+      "Sacchet, Matthew D."
+    ],
+    "year": 2024,
+    "journal": "Mindfulness",
+    "doi": "10.1007/s12671-024-02367-w",
+    "url": "https://doi.org/10.1007/s12671-024-02367-w",
+    "method": "Systematische Auswertung von acht Jhāna-Manuals",
+    "sample_type": "übersichtsarbeit",
+    "n": null,
+    "domain": "meditation-research",
+    "concept_id": "jhana",
+    "additional_concepts": [
+      "nirodha-samapatti"
+    ],
+    "evidence_type": "stützend",
+    "provenance": {
+      "source": "Deep-Research-Auftrag 2026-05-22; CONTEXT-Recherche-Bericht, Auftrag 2",
+      "date": "2026-05-22"
+    },
+    "summary": "Systematische Definition und Klassifikation von Jhāna anhand acht moderner Manuals. Identifiziert gemeinsame Merkmale (Atemstillstand im vierten Jhāna, sensorische Inklusion/Exklusion) und Streitpunkte. Schlägt einheitlichen, terminologisch präzisen Rahmen für ACAM-J vor, der phänomenologische und neurowissenschaftliche Untersuchung operationalisiert. CC BY 4.0, OA."
+  },
+  {
+    "id": "saraei-2023",
+    "title": "Comparing the three states of Dhikr, meditation, and thinking about God — an fMRI study",
+    "authors": [
+      "Saraei, Mahdiyeh",
+      "Newberg, Andrew B.",
+      "Hosseini, Seyed Reza",
+      "Bayati, Touraj",
+      "Batouli, Seyed Amir Hossein"
+    ],
+    "year": 2023,
+    "journal": "Religion, Brain & Behavior",
+    "doi": "10.1080/2153599X.2022.2108888",
+    "url": "https://doi.org/10.1080/2153599X.2022.2108888",
+    "method": "3T-fMRI, Within-Subject, vier-Bedingungs-Design",
+    "sample_type": "vergleichsstudie",
+    "n": 31,
+    "domain": "meditation-research",
+    "concept_id": "sufi-dhikr",
+    "evidence_type": "stützend",
+    "provenance": {
+      "source": "Deep-Research-Auftrag 2026-05-22; CONTEXT-Recherche-Bericht, Auftrag 4.1",
+      "date": "2026-05-22"
+    },
+    "summary": "Erste fMRI-Studie zu islamischem Dhikr im Direktvergleich mit Body-Scan-Meditation, freiem Gottesdenken und Ruhezustand. 22 distinkte neuronale Netzwerke identifiziert, gemeinsame Aktivierung von Gyrus angularis und Parahippocampus über alle vier Bedingungen. Dhikr unterscheidet sich von säkularer Mindfulness durch ein spezifisches Aktivierungsmuster, das eine eigenständige islamische Variante kontemplativer Praxis neurowissenschaftlich plausibel macht."
+  },
+  {
+    "id": "henz-schoellhorn-2017",
+    "title": "EEG Brain Activity in Dynamic Health Qigong Training — Same Effects for Mental Practice and Physical Training?",
+    "authors": [
+      "Henz, Diana",
+      "Schöllhorn, Wolfgang I."
+    ],
+    "year": 2017,
+    "journal": "Frontiers in Psychology",
+    "doi": "10.3389/fpsyg.2017.00154",
+    "url": "https://doi.org/10.3389/fpsyg.2017.00154",
+    "method": "EEG, Within-Subject (mental vs. physical practice)",
+    "sample_type": "experimentell",
+    "n": null,
+    "domain": "meditation-research",
+    "concept_id": "qigong",
+    "evidence_type": "stützend",
+    "provenance": {
+      "source": "Deep-Research-Auftrag 2026-05-22; CONTEXT-Recherche-Bericht, Auftrag 4.2; n der 2017er Studie aus Volltext nicht eindeutig rekonstruierbar, Replikation 2018 (n=20) als Indiz",
+      "date": "2026-05-22"
+    },
+    "summary": "Dynamisches Health-Qigong-Training (Wu Qin Xi) erzeugt spezifische EEG-Spektralprofile mit Anstiegen in Theta- und Alpha-Aktivität in anterioren Hirnregionen, vergleichbar zwischen mentalem und physischem Üben. Health-Qigong ist nicht identisch mit klassischer Neidan-Innerer-Alchemie, gehört aber zur breiteren daoistischen Kultivierungs-Familie. CC BY, OA."
+  },
+  {
+    "id": "irrmischer-2025",
+    "title": "DMT-induced shifts in criticality correlate with self-dissolution",
+    "authors": [
+      "Irrmischer, Mona",
+      "Aqil, Marco",
+      "Carhart-Harris, Robin",
+      "Linkenkaer-Hansen, Klaus",
+      "Timmermann, Christopher"
+    ],
+    "year": 2025,
+    "journal": "Journal of Neuroscience",
+    "doi": "10.1523/JNEUROSCI.0344-25.2025",
+    "url": "https://doi.org/10.1523/JNEUROSCI.0344-25.2025",
+    "method": "EEG plus Pharmakologie",
+    "sample_type": "experimentell",
+    "n": null,
+    "domain": "psychedelics-research",
+    "concept_id": "ich-aufloesung",
+    "evidence_type": "stützend",
+    "provenance": {
+      "source": "Verifiziert aus Meditationsforschung-Wissensdokument (Pollin 2026)",
+      "date": "2026-05-22"
+    },
+    "summary": "DMT verschiebt die Hirndynamik weg von einem ausbalancierten Zustand. Das Ausmaß dieser Verschiebung korreliert mit der erlebten Selbstauflösung. Direkter Beleg, dass Signalkomplexität-Verschiebung und Ich-Auflösung gekoppelt sind."
   }
 ]

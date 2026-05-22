@@ -2,43 +2,167 @@
   {
     "id": "gretil",
     "label": "GRETIL — Göttingen Register of Electronic Texts in Indian Languages",
-    "url": "http://gretil.sub.uni-goettingen.de",
-    "tradition_scope": ["Pali-Buddhismus", "Sanskrit-Hinduismus", "Advaita Vedānta", "Theravāda"],
-    "languages": ["pi", "sa"]
+    "url": "http://gretil.sub.uni-goettingen.de/gretil.html",
+    "wikidata_qid": "Q5514440",
+    "tradition_scope": [
+      "Sanskrit-Hinduismus",
+      "Pali-Buddhismus",
+      "Advaita Vedānta",
+      "Indische Philosophie"
+    ],
+    "languages": [
+      "sa",
+      "pi"
+    ],
+    "country": "Deutschland",
+    "host_institution": "SUB Göttingen",
+    "description": "Größtes offenes Repositorium digital edierter Sanskrit- und Pali-Texte. Universitätsbasiert, plain text und Unicode-transliteriert."
   },
   {
     "id": "cbeta",
     "label": "CBETA — Chinese Buddhist Electronic Text Association",
     "url": "https://www.cbeta.org",
-    "tradition_scope": ["Mahāyāna", "Chan", "Chinesischer Buddhismus"],
-    "languages": ["zh", "zh-classical"]
+    "wikidata_qid": "Q10876581",
+    "tradition_scope": [
+      "Mahāyāna",
+      "Chan",
+      "Chinesischer Buddhismus",
+      "Ostasiatischer Buddhismus"
+    ],
+    "languages": [
+      "zh",
+      "zh-classical"
+    ],
+    "country": "Taiwan",
+    "host_institution": "CBETA",
+    "description": "Vollständiger chinesischer buddhistischer Kanon (Taishō und Xuzangjing) als TEI-XML, frei verfügbar."
   },
   {
     "id": "suttacentral",
     "label": "SuttaCentral",
     "url": "https://suttacentral.net",
-    "tradition_scope": ["Pali-Buddhismus", "Theravāda", "Frühbuddhismus"],
-    "languages": ["pi", "sa", "zh-classical", "bo", "en", "de"]
+    "wikidata_qid": "Q101286521",
+    "tradition_scope": [
+      "Pali-Buddhismus",
+      "Theravāda",
+      "Frühbuddhismus"
+    ],
+    "languages": [
+      "pi",
+      "sa",
+      "zh-classical",
+      "bo",
+      "en",
+      "de"
+    ],
+    "country": "International",
+    "host_institution": "SuttaCentral Foundation",
+    "description": "Pali-Kanon als TEI-XML mit parallelen Übersetzungen in mehrere Sprachen, einschließlich Sanskrit- und Chinesisch-Parallelen."
   },
   {
     "id": "bdrc",
     "label": "BDRC — Buddhist Digital Resource Center",
     "url": "https://www.bdrc.io",
-    "tradition_scope": ["Tibetischer Buddhismus", "Dzogchen", "Mahāyāna"],
-    "languages": ["bo", "sa"]
+    "wikidata_qid": "Q30324366",
+    "tradition_scope": [
+      "Tibetischer Buddhismus",
+      "Dzogchen",
+      "Vajrayāna",
+      "Bön"
+    ],
+    "languages": [
+      "bo",
+      "sa",
+      "zh-classical"
+    ],
+    "country": "Vereinigte Staaten",
+    "host_institution": "BDRC",
+    "description": "Größte digitale Sammlung tibetischer Texte, mit IIIF-Faksimiles und Metadaten. Ehemals TBRC."
   },
   {
     "id": "tlg",
     "label": "TLG — Thesaurus Linguae Graecae",
     "url": "http://stephanus.tlg.uci.edu",
-    "tradition_scope": ["Griechische Antike", "Patristik", "Orthodoxes Christentum"],
-    "languages": ["grc"]
+    "wikidata_qid": "Q2131030",
+    "tradition_scope": [
+      "Griechische Antike",
+      "Patristik",
+      "Byzantinische Literatur",
+      "Orthodoxes Christentum"
+    ],
+    "languages": [
+      "grc"
+    ],
+    "country": "Vereinigte Staaten",
+    "host_institution": "University of California, Irvine",
+    "description": "Digitales Korpus altgriechischer Literatur vor 1500. Lizenzpflichtiger Zugang, aber kanonische Quelle für griechische Patristik einschließlich Philokalia-Texten."
   },
   {
     "id": "pubmed",
     "label": "PubMed",
     "url": "https://pubmed.ncbi.nlm.nih.gov",
-    "tradition_scope": ["Empirische Forschung"],
-    "languages": ["en"]
+    "wikidata_qid": "Q180686",
+    "tradition_scope": [
+      "Empirische Forschung",
+      "Neurowissenschaft",
+      "Klinische Studien"
+    ],
+    "languages": [
+      "en"
+    ],
+    "country": "Vereinigte Staaten",
+    "host_institution": "US National Library of Medicine",
+    "description": "Bibliographische Datenbank biomedizinischer Literatur. Zentrale Quelle für empirische Meditationsforschung."
+  },
+  {
+    "id": "access-to-insight",
+    "label": "Access to Insight",
+    "url": "https://www.accesstoinsight.org",
+    "wikidata_qid": null,
+    "tradition_scope": [
+      "Theravāda",
+      "Pali-Buddhismus"
+    ],
+    "languages": [
+      "en",
+      "pi"
+    ],
+    "country": "Vereinigte Staaten",
+    "host_institution": "Selbsthostend (John Bullitt)",
+    "description": "Etablierte englische Übersetzungsplattform für Theravāda-Texte. Statisches HTML, langzeitstabil."
+  },
+  {
+    "id": "archive-org",
+    "label": "Internet Archive",
+    "url": "https://archive.org",
+    "wikidata_qid": "Q461",
+    "tradition_scope": [
+      "Alle Traditionen",
+      "Faksimiles",
+      "PDF-Sammlung"
+    ],
+    "languages": [
+      "multi"
+    ],
+    "country": "Vereinigte Staaten",
+    "host_institution": "Internet Archive",
+    "description": "Sekundäre Trägerschicht für gemeinfreie Übersetzungen und Faksimiles. Wird in CONTEXT als Fallback für nicht-spezialisierte Editionen genutzt."
+  },
+  {
+    "id": "stanford-soto",
+    "label": "Stanford Sōtō Zen Text Project",
+    "url": "https://web.stanford.edu/group/scbs/sztp3/",
+    "wikidata_qid": null,
+    "tradition_scope": [
+      "Sōtō-Zen",
+      "Japanischer Buddhismus"
+    ],
+    "languages": [
+      "en",
+      "ja-classical"
+    ],
+    "country": "Vereinigte Staaten",
+    "host_institution": "Stanford Center for Buddhist Studies",
+    "description": "Akademisches Übersetzungsprojekt zu Dōgens Shōbōgenzō und verwandten Sōtō-Texten."
   }
 ]

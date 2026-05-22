@@ -1,0 +1,138 @@
+{
+  "head": {
+    "vars": [
+      "repository",
+      "repositoryLabel",
+      "website",
+      "countryLabel"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "repository": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q180686"
+        },
+        "website": {
+          "type": "uri",
+          "value": "https://pubmed.ncbi.nlm.nih.gov/"
+        },
+        "repositoryLabel": {
+          "type": "literal",
+          "value": "Q180686"
+        },
+        "countryLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Vereinigte Staaten"
+        }
+      },
+      {
+        "repository": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q180686"
+        },
+        "website": {
+          "type": "uri",
+          "value": "http://pubmed.gov/"
+        },
+        "repositoryLabel": {
+          "type": "literal",
+          "value": "Q180686"
+        },
+        "countryLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Vereinigte Staaten"
+        }
+      },
+      {
+        "repository": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q2131030"
+        },
+        "website": {
+          "type": "uri",
+          "value": "http://stephanus.tlg.uci.edu/index.php"
+        },
+        "repositoryLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Thesaurus Linguae Graecae"
+        },
+        "countryLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Vereinigte Staaten"
+        }
+      },
+      {
+        "repository": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q5514440"
+        },
+        "repositoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "GRETIL"
+        }
+      },
+      {
+        "repository": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q10876581"
+        },
+        "website": {
+          "type": "uri",
+          "value": "https://www.cbeta.org./"
+        },
+        "repositoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "Chinese Buddhist Electronic Text Association"
+        },
+        "countryLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Republik China"
+        }
+      },
+      {
+        "repository": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q30324366"
+        },
+        "website": {
+          "type": "uri",
+          "value": "https://www.bdrc.io/"
+        },
+        "repositoryLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Tibetan Buddhist Resource Center"
+        },
+        "countryLabel": {
+          "xml:lang": "de",
+          "type": "literal",
+          "value": "Vereinigte Staaten"
+        }
+      },
+      {
+        "repository": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q101286521"
+        },
+        "website": {
+          "type": "uri",
+          "value": "https://suttacentral.net/"
+        },
+        "repositoryLabel": {
+          "xml:lang": "en",
+          "type": "literal",
+          "value": "SuttaCentral"
+        }
+      }
+    ]
+  }
+}

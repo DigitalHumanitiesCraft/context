@@ -1,0 +1,26 @@
+# Werkmetadaten zu den im Modell geführten historischen Werken.
+#
+# Zweck: Autor, Entstehungszeit, Sprache, Genre aus Wikidata anreichern.
+#        Lokale Daten enthalten kuratierte Felder, die hier ergänzt werden.
+# Spalten: ?work ?workLabel ?authorLabel ?inception ?languageLabel ?genreLabel
+# Snapshot: ../wikidata-snapshots/YYYY-MM-DD-works-by-qid.json
+
+SELECT ?work ?workLabel ?authorLabel ?inception ?languageLabel ?genreLabel
+WHERE {
+  VALUES ?work {
+    wd:Q200447    # Visuddhimagga
+    wd:Q544764    # Aṅguttara Nikāya
+    wd:Q780145    # Aṣṭāvakra Gītā
+    wd:Q929140    # Philokalia
+    wd:Q3100748   # Genjōkōan
+  }
+
+  OPTIONAL { ?work wdt:P50 ?author. }
+  OPTIONAL { ?work wdt:P571 ?inception. }
+  OPTIONAL { ?work wdt:P407 ?language. }
+  OPTIONAL { ?work wdt:P136 ?genre. }
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "de,en" .
+  }
+}

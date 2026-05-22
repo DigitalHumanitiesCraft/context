@@ -1,0 +1,24 @@
+# Repositorien als externe Anker.
+#
+# Zweck: Wikidata-Einträge der Text-Repositorien (Webseite, Trägerinstitution).
+# Spalten: ?repository ?repositoryLabel ?website ?countryLabel
+# Snapshot: ../wikidata-snapshots/YYYY-MM-DD-repositories.json
+
+SELECT ?repository ?repositoryLabel ?website ?countryLabel
+WHERE {
+  VALUES ?repository {
+    wd:Q5514440    # GRETIL
+    wd:Q10876581   # Chinese Buddhist Electronic Text Association (CBETA)
+    wd:Q101286521  # SuttaCentral
+    wd:Q30324366   # Buddhist Digital Resource Center
+    wd:Q2131030    # Thesaurus Linguae Graecae
+    wd:Q180686     # PubMed
+  }
+
+  OPTIONAL { ?repository wdt:P856 ?website. }
+  OPTIONAL { ?repository wdt:P17 ?country. }
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "de,en" .
+  }
+}

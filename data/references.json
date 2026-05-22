@@ -1,0 +1,157 @@
+[
+  {
+    "id": "varela-1996",
+    "type": "knotenpunkt",
+    "title": "Neurophenomenology — A Methodological Remedy for the Hard Problem",
+    "authors": ["Varela, Francisco J."],
+    "year": 1996,
+    "journal": "Journal of Consciousness Studies",
+    "volume": "3",
+    "issue": "4",
+    "pages": "330–349",
+    "doi": null,
+    "doi_status": "no-doi",
+    "doi_note": "Kein Crossref-DOI vergeben (JCS vor ca. 2010). Volltext-URL als stabile Adressierung, kein DOI wird synthetisiert.",
+    "url": "https://www.unstable.nl/varela_neurophenomenology.pdf",
+    "open_access": true,
+    "license": "Volltext frei, Verlag (Imprint Academic) paywalled",
+    "core_thesis": "Das harte Problem des Bewusstseins lässt sich nicht durch ein 'Extra-Ingredient' lösen, sondern durch wechselseitige Einschränkung zwischen rigorosen Erste-Person-Beschreibungen (Husserlsche Phänomenologie) und Dritte-Person-Daten der Kognitionswissenschaften. Neurophänomenologie als Forschungsprogramm: methodisch geschulte phänomenologische Berichte und neurophysiologische Messungen beschränken sich gegenseitig prädiktiv.",
+    "concepts_anchored": ["nichtduales-gewahrsein", "ich-aufloesung", "jhana"],
+    "follow_up_papers": [
+      {
+        "title": "Guiding the study of brain dynamics by using first-person data — synchrony patterns correlate with ongoing conscious states during a simple visual task",
+        "authors": ["Lutz, Antoine", "Lachaux, Jean-Philippe", "Martinerie, Jacques", "Varela, Francisco J."],
+        "year": 2002,
+        "journal": "PNAS",
+        "doi": "10.1073/pnas.032658199"
+      },
+      {
+        "title": "Neurophenomenology — Integrating subjective experience and brain dynamics in the neuroscience of consciousness",
+        "authors": ["Lutz, Antoine", "Thompson, Evan"],
+        "year": 2003,
+        "journal": "Journal of Consciousness Studies",
+        "doi": null,
+        "doi_note": "Kein Crossref-DOI."
+      },
+      {
+        "title": "Studying the experience of meditation through micro-phenomenology",
+        "authors": ["Petitmengin, Claire", "van Beek, Martijn", "Bitbol, Michel", "Nissou, Jean-Michel", "Roepstorff, Andreas"],
+        "year": 2019,
+        "journal": "Current Opinion in Psychology",
+        "doi": "10.1016/j.copsyc.2018.10.009"
+      }
+    ]
+  },
+  {
+    "id": "sparby-sacchet-cluster",
+    "type": "knotenpunkt",
+    "title": "Sparby & Sacchet (2022, 2024) — Klassifikationsbasis advanced meditation",
+    "authors": ["Sparby, Terje", "Sacchet, Matthew D."],
+    "year": 2022,
+    "journal": "Frontiers in Psychology (2022) und Mindfulness (2024)",
+    "doi": "10.3389/fpsyg.2021.795077",
+    "url": "https://doi.org/10.3389/fpsyg.2021.795077",
+    "open_access": true,
+    "license": "CC BY 4.0",
+    "core_thesis": "Sparby & Sacchet 2022 begründen ein aktivitätsbasiertes phänomenologisches Klassifikationssystem: alle Meditationstechniken lassen sich auf wenige Grundaktivitäten (Fokussieren, Loslassen, Imaginieren, Bewegen) zurückführen. Sparby & Sacchet 2024 führen das zu einer systematischen Definition von Jhāna (ACAM-J) aus, anhand acht moderner Manuals. Zusammen bilden sie die Klassifikationsbasis des Sacchet-Labors (MGH/Harvard) und der gesamten dritten Forschungswelle.",
+    "concepts_anchored": ["jhana", "nichtduales-gewahrsein", "nirodha-samapatti"],
+    "follow_up_papers": [
+      {
+        "title": "Volitional mental absorption in meditation — toward a scientific understanding of advanced concentrative absorption meditation and the case of jhana",
+        "authors": ["Yang, Winson F. Z.", "Sparby, Terje", "Wright, Matthew", "Kim, Eunjung", "Sacchet, Matthew D."],
+        "year": 2024,
+        "journal": "Heliyon",
+        "doi": "10.1016/j.heliyon.2024.e31223"
+      },
+      {
+        "title": "Multimodal neurophenomenology of advanced concentration absorption meditation — an intensively sampled case study of Jhana",
+        "authors": ["Chowdhury, Avijit", "Bianciardi, Marta", "Chapdelaine, Elizabeth", "Riaz, Omar S.", "Timmermann, Christopher", "van Lutterveld, Remko", "Sparby, Terje", "Sacchet, Matthew D."],
+        "year": 2025,
+        "journal": "NeuroImage 305: 120973",
+        "doi": "10.1016/j.neuroimage.2024.120973"
+      },
+      {
+        "title": "The Third Wave of Meditation and Mindfulness Research and Implications for Challenging Experiences",
+        "authors": ["Sparby, Terje", "Sacchet, Matthew D."],
+        "year": 2025,
+        "journal": "Mindfulness 16, 2156–2170",
+        "doi": null,
+        "doi_note": "DOI nicht im Deep-Research-Bericht enthalten, vor Ingest verifizieren."
+      }
+    ]
+  },
+  {
+    "id": "lindahl-2017",
+    "type": "knotenpunkt",
+    "title": "The Varieties of Contemplative Experience — A Mixed-Methods Study of Meditation-Related Challenges in Western Buddhists",
+    "authors": ["Lindahl, Jared R.", "Fisher, Nathan E.", "Cooper, David J.", "Rosen, Rochelle K.", "Britton, Willoughby B."],
+    "year": 2017,
+    "journal": "PLOS ONE",
+    "doi": "10.1371/journal.pone.0176239",
+    "url": "https://doi.org/10.1371/journal.pone.0176239",
+    "open_access": true,
+    "license": "CC BY 4.0",
+    "core_thesis": "Mixed-methods-Studie mit qualitativen Interviews westlicher Theravāda-, Zen- und Tibetisch-buddhistischer Praktizierender und Lehrer identifiziert 59 distinkte Kategorien meditationsbezogener Erfahrungen quer durch sieben Domänen (kognitiv, perzeptuell, affektiv, somatisch, motivational, Selbst, sozial), darunter zahlreiche herausfordernde Phänomene. Phänomenologisches Fundament der heutigen Sicherheitsdebatte in Mindfulness-Programmen.",
+    "concepts_anchored": ["nichtduales-gewahrsein", "jhana", "ich-aufloesung"],
+    "follow_up_papers": [
+      {
+        "title": "Progress or Pathology? Differential Diagnosis and Intervention Criteria for Meditation-Related Challenges",
+        "authors": ["Lindahl, Jared R.", "Cooper, David J.", "Fisher, Nathan E.", "Kirmayer, Laurence J.", "Britton, Willoughby B."],
+        "year": 2020,
+        "journal": "Frontiers in Psychology",
+        "doi": "10.3389/fpsyg.2020.01905"
+      },
+      {
+        "title": "Defining and Measuring Meditation-Related Adverse Effects in Mindfulness-Based Programs",
+        "authors": ["Britton, Willoughby B.", "Lindahl, Jared R.", "Cooper, David J.", "Canby, Nicholas K.", "Palitsky, Roman"],
+        "year": 2021,
+        "journal": "Clinical Psychological Science",
+        "doi": "10.1177/2167702621996340"
+      },
+      {
+        "title": "Clarifying and measuring the characteristics of experiences that involve a loss of self or a dissolution of its boundaries",
+        "authors": ["Canby, Nicholas K.", "Lindahl, Jared R.", "Britton, Willoughby B.", "Córdova, James"],
+        "year": 2024,
+        "journal": "Consciousness and Cognition",
+        "doi": "10.1016/j.concog.2024.103655"
+      }
+    ]
+  },
+  {
+    "id": "carhart-harris-2014-entropic",
+    "type": "knotenpunkt",
+    "title": "The Entropic Brain — A Theory of Conscious States Informed by Neuroimaging Research with Psychedelic Drugs",
+    "authors": ["Carhart-Harris, Robin L.", "Leech, Robert", "Hellyer, Peter J.", "Shanahan, Murray", "Feilding, Amanda", "Tagliazucchi, Enzo", "Chialvo, Dante R.", "Nutt, David"],
+    "year": 2014,
+    "journal": "Frontiers in Human Neuroscience",
+    "doi": "10.3389/fnhum.2014.00020",
+    "url": "https://doi.org/10.3389/fnhum.2014.00020",
+    "open_access": true,
+    "license": "CC BY",
+    "core_thesis": "Die Qualität bewusster Zustände ist eine monotone Funktion der Entropie kortikaler Aktivität: primäre Zustände (Psychedelika-Erfahrung, REM-Traum, frühe Kindheit, beginnende Psychose) zeigen erhöhte Entropie und reduzierte DMN-Kohärenz, sekundäre reife Wachzustände niedrigere Entropie und stärkere DMN-Stabilität. Einheitlicher informationstheoretischer Rahmen für veränderte Bewusstseinszustände — zentrale Brücke zwischen kontemplativer Praxis und Psychedelika-Forschung.",
+    "concepts_anchored": ["ich-aufloesung", "dmn-suppression"],
+    "follow_up_papers": [
+      {
+        "title": "The entropic brain — revisited",
+        "authors": ["Carhart-Harris, Robin L."],
+        "year": 2018,
+        "journal": "Neuropharmacology",
+        "doi": "10.1016/j.neuropharm.2018.03.010"
+      },
+      {
+        "title": "REBUS and the Anarchic Brain — Toward a Unified Model of the Brain Action of Psychedelics",
+        "authors": ["Carhart-Harris, Robin L.", "Friston, Karl J."],
+        "year": 2019,
+        "journal": "Pharmacological Reviews",
+        "doi": "10.1124/pr.118.017160"
+      },
+      {
+        "title": "Serotonergic psychedelic drugs LSD and psilocybin reduce the hierarchical differentiation of unimodal and transmodal cortex",
+        "authors": ["Girn, Manesh", "Roseman, Leor", "Bernhardt, Boris", "Smallwood, Jonathan", "Carhart-Harris, Robin L.", "Spreng, R. Nathan"],
+        "year": 2022,
+        "journal": "NeuroImage",
+        "doi": "10.1016/j.neuroimage.2022.119220"
+      }
+    ]
+  }
+]

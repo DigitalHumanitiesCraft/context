@@ -1,0 +1,321 @@
+{
+  "schema_version": "0.1",
+  "description": "Saat-Liste für tools/scholarly-harvest.py. Jede Saat trägt eine DOI (oder no_doi-Flag mit fallback_url), eine konzeptuelle Zuordnung, eine Quellenart (study | reference_followup) und Hygiene-Flags, die der Harvester an den Snapshot durchreicht. Kuratierte Felder bleiben unverändert; geerntete Felder kommen aus Crossref, Unpaywall, OpenAlex und überschreiben keine Kuration.",
+  "last_updated": "2026-05-22",
+  "seeds": [
+    {
+      "seed_id": "chowdhury-2025",
+      "doi": "10.1016/j.neuroimage.2024.120973",
+      "kind": "study",
+      "concept_id": "jhana",
+      "additional_concepts": [],
+      "study_id": "chowdhury-2025",
+      "flags": []
+    },
+    {
+      "seed_id": "lutz-2004",
+      "doi": "10.1073/pnas.0407401101",
+      "kind": "study",
+      "concept_id": "jhana",
+      "additional_concepts": [],
+      "study_id": "lutz-2004",
+      "flags": []
+    },
+    {
+      "seed_id": "josipovic-2012",
+      "doi": "10.3389/fnhum.2011.00183",
+      "kind": "study",
+      "concept_id": "nichtduales-gewahrsein",
+      "additional_concepts": [],
+      "study_id": "josipovic-2012",
+      "flags": []
+    },
+    {
+      "seed_id": "ehmann-2025",
+      "doi": "10.1162/IMAG.a.82",
+      "kind": "study",
+      "concept_id": "nichtduales-gewahrsein",
+      "additional_concepts": [],
+      "study_id": "ehmann-2025",
+      "flags": []
+    },
+    {
+      "seed_id": "carhart-harris-friston-2019",
+      "doi": "10.1124/pr.118.017160",
+      "kind": "study",
+      "concept_id": "dmn-suppression",
+      "additional_concepts": [],
+      "study_id": "carhart-harris-friston-2019",
+      "flags": []
+    },
+    {
+      "seed_id": "timmermann-2023-tics",
+      "doi": "10.1016/j.tics.2022.11.006",
+      "kind": "study",
+      "concept_id": "ich-aufloesung",
+      "additional_concepts": [],
+      "study_id": "timmermann-2023-tics",
+      "flags": []
+    },
+    {
+      "seed_id": "carhart-harris-2014",
+      "doi": "10.3389/fnhum.2014.00020",
+      "kind": "study",
+      "concept_id": "ich-aufloesung",
+      "additional_concepts": [],
+      "study_id": "carhart-harris-2014",
+      "flags": []
+    },
+    {
+      "seed_id": "hoge-2023",
+      "doi": "10.1001/jamapsychiatry.2022.3679",
+      "kind": "study",
+      "concept_id": "mbsr",
+      "additional_concepts": [],
+      "study_id": "hoge-2023",
+      "flags": []
+    },
+    {
+      "seed_id": "britton-2021",
+      "doi": "10.1177/2167702621996340",
+      "kind": "study",
+      "concept_id": "mbsr",
+      "additional_concepts": ["jhana", "nichtduales-gewahrsein", "nirodha-samapatti", "ich-aufloesung"],
+      "study_id": "britton-2021",
+      "flags": []
+    },
+    {
+      "seed_id": "goldberg-2022",
+      "doi": "10.1080/10503307.2021.1933646",
+      "kind": "study",
+      "concept_id": "mbsr",
+      "additional_concepts": ["jhana", "nichtduales-gewahrsein", "nirodha-samapatti", "ich-aufloesung"],
+      "study_id": "goldberg-2022",
+      "flags": []
+    },
+    {
+      "seed_id": "kuyken-2022",
+      "doi": "10.1136/ebmental-2021-300396",
+      "kind": "study",
+      "concept_id": "nichtduales-gewahrsein",
+      "additional_concepts": [],
+      "study_id": "kuyken-2022",
+      "flags": []
+    },
+    {
+      "seed_id": "templeton-wct-30294",
+      "doi": null,
+      "fallback_url": "https://prayer.science",
+      "kind": "study",
+      "concept_id": "hesychasm",
+      "additional_concepts": [],
+      "study_id": "templeton-wct-30294",
+      "flags": ["no-doi-use-fallback-url", "watchlist-laufend"]
+    },
+    {
+      "seed_id": "rubinart-2017",
+      "doi": "10.1007/s11089-017-0762-4",
+      "kind": "study",
+      "concept_id": "hesychasm",
+      "additional_concepts": [],
+      "study_id": "rubinart-2017",
+      "flags": ["population-westkatholisch-nicht-orthodox"]
+    },
+    {
+      "seed_id": "sparby-sacchet-2022",
+      "doi": "10.3389/fpsyg.2021.795077",
+      "kind": "study",
+      "concept_id": "nirodha-samapatti",
+      "additional_concepts": ["jhana", "nichtduales-gewahrsein"],
+      "study_id": "sparby-sacchet-2022",
+      "flags": []
+    },
+    {
+      "seed_id": "sparby-sacchet-2024",
+      "doi": "10.1007/s12671-024-02367-w",
+      "kind": "study",
+      "concept_id": "jhana",
+      "additional_concepts": ["nirodha-samapatti"],
+      "study_id": "sparby-sacchet-2024",
+      "flags": []
+    },
+    {
+      "seed_id": "saraei-2023",
+      "doi": "10.1080/2153599X.2022.2108888",
+      "kind": "study",
+      "concept_id": "sufi-dhikr",
+      "additional_concepts": [],
+      "study_id": "saraei-2023",
+      "flags": ["author-order-mismatch-possible"]
+    },
+    {
+      "seed_id": "henz-schoellhorn-2017",
+      "doi": "10.3389/fpsyg.2017.00154",
+      "kind": "study",
+      "concept_id": "qigong",
+      "additional_concepts": [],
+      "study_id": "henz-schoellhorn-2017",
+      "flags": ["sample-size-unclear"]
+    },
+    {
+      "seed_id": "irrmischer-2025",
+      "doi": "10.1523/JNEUROSCI.0344-25.2025",
+      "kind": "study",
+      "concept_id": "ich-aufloesung",
+      "additional_concepts": [],
+      "study_id": "irrmischer-2025",
+      "flags": []
+    },
+
+    {
+      "seed_id": "varela-1996",
+      "doi": null,
+      "fallback_url": "https://www.unstable.nl/varela_neurophenomenology.pdf",
+      "kind": "reference_knotenpunkt",
+      "reference_id": "varela-1996",
+      "concept_id": "nichtduales-gewahrsein",
+      "additional_concepts": ["ich-aufloesung", "jhana"],
+      "flags": ["no-doi-use-fallback-url"]
+    },
+    {
+      "seed_id": "lutz-lachaux-2002",
+      "doi": "10.1073/pnas.032658199",
+      "kind": "reference_followup",
+      "parent_reference_id": "varela-1996",
+      "concept_id": "nichtduales-gewahrsein",
+      "additional_concepts": ["ich-aufloesung"],
+      "flags": []
+    },
+    {
+      "seed_id": "lutz-thompson-2003",
+      "doi": null,
+      "fallback_url": null,
+      "kind": "reference_followup",
+      "parent_reference_id": "varela-1996",
+      "concept_id": "nichtduales-gewahrsein",
+      "additional_concepts": [],
+      "flags": ["no-doi-jcs-pre-2010"]
+    },
+    {
+      "seed_id": "petitmengin-2019",
+      "doi": "10.1016/j.copsyc.2018.10.009",
+      "kind": "reference_followup",
+      "parent_reference_id": "varela-1996",
+      "concept_id": "nichtduales-gewahrsein",
+      "additional_concepts": [],
+      "flags": []
+    },
+
+    {
+      "seed_id": "sparby-sacchet-cluster",
+      "doi": "10.3389/fpsyg.2021.795077",
+      "kind": "reference_knotenpunkt",
+      "reference_id": "sparby-sacchet-cluster",
+      "concept_id": "jhana",
+      "additional_concepts": ["nichtduales-gewahrsein", "nirodha-samapatti"],
+      "flags": []
+    },
+    {
+      "seed_id": "yang-2024-volitional",
+      "doi": "10.1016/j.heliyon.2024.e31223",
+      "kind": "reference_followup",
+      "parent_reference_id": "sparby-sacchet-cluster",
+      "concept_id": "jhana",
+      "additional_concepts": [],
+      "flags": []
+    },
+    {
+      "seed_id": "chowdhury-2025-cluster-followup",
+      "doi": "10.1016/j.neuroimage.2024.120973",
+      "kind": "reference_followup",
+      "parent_reference_id": "sparby-sacchet-cluster",
+      "concept_id": "jhana",
+      "additional_concepts": [],
+      "flags": ["duplicate-of-study-chowdhury-2025"]
+    },
+    {
+      "seed_id": "sparby-sacchet-2025-third-wave",
+      "doi": null,
+      "fallback_url": null,
+      "kind": "reference_followup",
+      "parent_reference_id": "sparby-sacchet-cluster",
+      "concept_id": "jhana",
+      "additional_concepts": [],
+      "flags": ["doi-unverified-pre-ingest"]
+    },
+
+    {
+      "seed_id": "lindahl-2017",
+      "doi": "10.1371/journal.pone.0176239",
+      "kind": "reference_knotenpunkt",
+      "reference_id": "lindahl-2017",
+      "concept_id": "nichtduales-gewahrsein",
+      "additional_concepts": ["jhana", "ich-aufloesung"],
+      "flags": []
+    },
+    {
+      "seed_id": "lindahl-2020-progress-pathology",
+      "doi": "10.3389/fpsyg.2020.01905",
+      "kind": "reference_followup",
+      "parent_reference_id": "lindahl-2017",
+      "concept_id": "nichtduales-gewahrsein",
+      "additional_concepts": [],
+      "flags": []
+    },
+    {
+      "seed_id": "britton-2021-cluster-followup",
+      "doi": "10.1177/2167702621996340",
+      "kind": "reference_followup",
+      "parent_reference_id": "lindahl-2017",
+      "concept_id": "mbsr",
+      "additional_concepts": [],
+      "flags": ["duplicate-of-study-britton-2021"]
+    },
+    {
+      "seed_id": "canby-2024-self-dissolution",
+      "doi": "10.1016/j.concog.2024.103655",
+      "kind": "reference_followup",
+      "parent_reference_id": "lindahl-2017",
+      "concept_id": "ich-aufloesung",
+      "additional_concepts": [],
+      "flags": []
+    },
+
+    {
+      "seed_id": "carhart-harris-2014-entropic",
+      "doi": "10.3389/fnhum.2014.00020",
+      "kind": "reference_knotenpunkt",
+      "reference_id": "carhart-harris-2014-entropic",
+      "concept_id": "ich-aufloesung",
+      "additional_concepts": ["dmn-suppression"],
+      "flags": ["duplicate-of-study-carhart-harris-2014"]
+    },
+    {
+      "seed_id": "carhart-harris-2018-revisited",
+      "doi": "10.1016/j.neuropharm.2018.03.010",
+      "kind": "reference_followup",
+      "parent_reference_id": "carhart-harris-2014-entropic",
+      "concept_id": "ich-aufloesung",
+      "additional_concepts": [],
+      "flags": []
+    },
+    {
+      "seed_id": "carhart-harris-friston-2019-rebus",
+      "doi": "10.1124/pr.118.017160",
+      "kind": "reference_followup",
+      "parent_reference_id": "carhart-harris-2014-entropic",
+      "concept_id": "dmn-suppression",
+      "additional_concepts": [],
+      "flags": ["duplicate-of-study-carhart-harris-friston-2019"]
+    },
+    {
+      "seed_id": "girn-2022-serotonergic",
+      "doi": "10.1016/j.neuroimage.2022.119220",
+      "kind": "reference_followup",
+      "parent_reference_id": "carhart-harris-2014-entropic",
+      "concept_id": "ich-aufloesung",
+      "additional_concepts": [],
+      "flags": []
+    }
+  ]
+}

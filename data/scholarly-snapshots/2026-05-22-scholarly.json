@@ -1,0 +1,1326 @@
+{
+  "snapshot_date": "2026-05-22",
+  "snapshot_mode": "offline-fixtures",
+  "seeds_total": 34,
+  "records": [
+    {
+      "seed_id": "chowdhury-2025",
+      "doi": "10.1016/j.neuroimage.2024.120973",
+      "kind": "study",
+      "curated": {
+        "concept_id": "jhana",
+        "additional_concepts": [],
+        "study_id": "chowdhury-2025",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "ok",
+          "title": "Multimodal neurophenomenology of advanced concentration absorption meditation — an intensively sampled case study of Jhana",
+          "journal": "NeuroImage",
+          "authors": [
+            "Chowdhury, Avijit",
+            "Bianciardi, Marta",
+            "Chapdelaine, Elizabeth",
+            "Riaz, Omar S.",
+            "Timmermann, Christopher",
+            "van Lutterveld, Remko",
+            "Sparby, Terje",
+            "Sacchet, Matthew D."
+          ],
+          "year": 2025,
+          "volume": "305",
+          "issue": null,
+          "page": "120973",
+          "publisher": "Elsevier BV",
+          "is_referenced_by_count": null,
+          "type": "journal-article"
+        },
+        "unpaywall": {
+          "status": "ok",
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "best_oa_url": "https://www.sciencedirect.com/science/article/pii/S1053811924004336",
+          "best_oa_license": "cc-by",
+          "best_oa_version": "publishedVersion"
+        },
+        "openalex": {
+          "status": "ok",
+          "openalex_id": "https://openalex.org/W4404730000",
+          "cited_by_count": null,
+          "referenced_works_count": 0,
+          "related_works": [],
+          "concepts": [
+            {
+              "display_name": "Meditation",
+              "score": 0.92
+            },
+            {
+              "display_name": "Default mode network",
+              "score": 0.74
+            },
+            {
+              "display_name": "Phenomenology",
+              "score": 0.61
+            }
+          ]
+        }
+      },
+      "flags": []
+    },
+    {
+      "seed_id": "lutz-2004",
+      "doi": "10.1073/pnas.0407401101",
+      "kind": "study",
+      "curated": {
+        "concept_id": "jhana",
+        "additional_concepts": [],
+        "study_id": "lutz-2004",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "josipovic-2012",
+      "doi": "10.3389/fnhum.2011.00183",
+      "kind": "study",
+      "curated": {
+        "concept_id": "nichtduales-gewahrsein",
+        "additional_concepts": [],
+        "study_id": "josipovic-2012",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "ehmann-2025",
+      "doi": "10.1162/IMAG.a.82",
+      "kind": "study",
+      "curated": {
+        "concept_id": "nichtduales-gewahrsein",
+        "additional_concepts": [],
+        "study_id": "ehmann-2025",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "carhart-harris-friston-2019",
+      "doi": "10.1124/pr.118.017160",
+      "kind": "study",
+      "curated": {
+        "concept_id": "dmn-suppression",
+        "additional_concepts": [],
+        "study_id": "carhart-harris-friston-2019",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "timmermann-2023-tics",
+      "doi": "10.1016/j.tics.2022.11.006",
+      "kind": "study",
+      "curated": {
+        "concept_id": "ich-aufloesung",
+        "additional_concepts": [],
+        "study_id": "timmermann-2023-tics",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "carhart-harris-2014",
+      "doi": "10.3389/fnhum.2014.00020",
+      "kind": "study",
+      "curated": {
+        "concept_id": "ich-aufloesung",
+        "additional_concepts": [],
+        "study_id": "carhart-harris-2014",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "ok",
+          "title": "The entropic brain — a theory of conscious states informed by neuroimaging research with psychedelic drugs",
+          "journal": "Frontiers in Human Neuroscience",
+          "authors": [
+            "Carhart-Harris, Robin L.",
+            "Leech, Robert",
+            "Hellyer, Peter J.",
+            "Shanahan, Murray",
+            "Feilding, Amanda",
+            "Tagliazucchi, Enzo",
+            "Chialvo, Dante R.",
+            "Nutt, David"
+          ],
+          "year": 2014,
+          "volume": "8",
+          "issue": null,
+          "page": "20",
+          "publisher": "Frontiers Media SA",
+          "is_referenced_by_count": null,
+          "type": "journal-article"
+        },
+        "unpaywall": {
+          "status": "ok",
+          "is_oa": true,
+          "oa_status": "gold",
+          "best_oa_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2014.00020/full",
+          "best_oa_license": "cc-by",
+          "best_oa_version": "publishedVersion"
+        },
+        "openalex": {
+          "status": "ok",
+          "openalex_id": "https://openalex.org/W2168558480",
+          "cited_by_count": null,
+          "referenced_works_count": 0,
+          "related_works": [],
+          "concepts": [
+            {
+              "display_name": "Psychedelic drug",
+              "score": 0.95
+            },
+            {
+              "display_name": "Default mode network",
+              "score": 0.81
+            },
+            {
+              "display_name": "Entropy",
+              "score": 0.69
+            }
+          ]
+        }
+      },
+      "flags": []
+    },
+    {
+      "seed_id": "hoge-2023",
+      "doi": "10.1001/jamapsychiatry.2022.3679",
+      "kind": "study",
+      "curated": {
+        "concept_id": "mbsr",
+        "additional_concepts": [],
+        "study_id": "hoge-2023",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "britton-2021",
+      "doi": "10.1177/2167702621996340",
+      "kind": "study",
+      "curated": {
+        "concept_id": "mbsr",
+        "additional_concepts": [
+          "jhana",
+          "nichtduales-gewahrsein",
+          "nirodha-samapatti",
+          "ich-aufloesung"
+        ],
+        "study_id": "britton-2021",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "goldberg-2022",
+      "doi": "10.1080/10503307.2021.1933646",
+      "kind": "study",
+      "curated": {
+        "concept_id": "mbsr",
+        "additional_concepts": [
+          "jhana",
+          "nichtduales-gewahrsein",
+          "nirodha-samapatti",
+          "ich-aufloesung"
+        ],
+        "study_id": "goldberg-2022",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "kuyken-2022",
+      "doi": "10.1136/ebmental-2021-300396",
+      "kind": "study",
+      "curated": {
+        "concept_id": "nichtduales-gewahrsein",
+        "additional_concepts": [],
+        "study_id": "kuyken-2022",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "templeton-wct-30294",
+      "doi": null,
+      "kind": "study",
+      "curated": {
+        "concept_id": "hesychasm",
+        "additional_concepts": [],
+        "study_id": "templeton-wct-30294",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": "https://prayer.science"
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "no-doi-use-fallback-url",
+        "watchlist-laufend"
+      ]
+    },
+    {
+      "seed_id": "rubinart-2017",
+      "doi": "10.1007/s11089-017-0762-4",
+      "kind": "study",
+      "curated": {
+        "concept_id": "hesychasm",
+        "additional_concepts": [],
+        "study_id": "rubinart-2017",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "ok",
+          "title": "The Psychological Impact of the Jesus Prayer among Non-Conventional Catholics",
+          "journal": "Pastoral Psychology",
+          "authors": [
+            "Rubinart, Marta",
+            "Fornieles, Albert",
+            "Deus, Joan"
+          ],
+          "year": 2017,
+          "volume": "66",
+          "issue": "4",
+          "page": "487–500",
+          "publisher": "Springer Science and Business Media LLC",
+          "is_referenced_by_count": null,
+          "type": "journal-article"
+        },
+        "unpaywall": {
+          "status": "ok",
+          "is_oa": false,
+          "oa_status": "closed",
+          "best_oa_url": null,
+          "best_oa_license": null,
+          "best_oa_version": null
+        },
+        "openalex": {
+          "status": "ok",
+          "openalex_id": "https://openalex.org/W2741000000",
+          "cited_by_count": null,
+          "referenced_works_count": 0,
+          "related_works": [],
+          "concepts": [
+            {
+              "display_name": "Prayer",
+              "score": 0.88
+            },
+            {
+              "display_name": "Catholic",
+              "score": 0.71
+            }
+          ]
+        }
+      },
+      "flags": [
+        "population-westkatholisch-nicht-orthodox"
+      ]
+    },
+    {
+      "seed_id": "sparby-sacchet-2022",
+      "doi": "10.3389/fpsyg.2021.795077",
+      "kind": "study",
+      "curated": {
+        "concept_id": "nirodha-samapatti",
+        "additional_concepts": [
+          "jhana",
+          "nichtduales-gewahrsein"
+        ],
+        "study_id": "sparby-sacchet-2022",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "sparby-sacchet-2024",
+      "doi": "10.1007/s12671-024-02367-w",
+      "kind": "study",
+      "curated": {
+        "concept_id": "jhana",
+        "additional_concepts": [
+          "nirodha-samapatti"
+        ],
+        "study_id": "sparby-sacchet-2024",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "saraei-2023",
+      "doi": "10.1080/2153599X.2022.2108888",
+      "kind": "study",
+      "curated": {
+        "concept_id": "sufi-dhikr",
+        "additional_concepts": [],
+        "study_id": "saraei-2023",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "ok",
+          "title": "Comparing the three states of Dhikr, meditation, and thinking about God — an fMRI study",
+          "journal": "Religion, Brain & Behavior",
+          "authors": [
+            "Batouli, Seyed Amir Hossein",
+            "Saraei, Mahdiyeh",
+            "Bayati, Touraj",
+            "Hosseini, Seyed Reza",
+            "Newberg, Andrew B."
+          ],
+          "year": 2023,
+          "volume": null,
+          "issue": null,
+          "page": null,
+          "publisher": "Informa UK Limited",
+          "is_referenced_by_count": null,
+          "type": "journal-article"
+        },
+        "unpaywall": {
+          "status": "ok",
+          "is_oa": false,
+          "oa_status": "closed",
+          "best_oa_url": null,
+          "best_oa_license": null,
+          "best_oa_version": null
+        },
+        "openalex": {
+          "status": "ok",
+          "openalex_id": "https://openalex.org/W4290000000",
+          "cited_by_count": null,
+          "referenced_works_count": 0,
+          "related_works": [],
+          "concepts": [
+            {
+              "display_name": "Meditation",
+              "score": 0.84
+            },
+            {
+              "display_name": "Islam",
+              "score": 0.72
+            }
+          ]
+        }
+      },
+      "flags": [
+        "author-order-mismatch",
+        "author-order-mismatch-possible"
+      ]
+    },
+    {
+      "seed_id": "henz-schoellhorn-2017",
+      "doi": "10.3389/fpsyg.2017.00154",
+      "kind": "study",
+      "curated": {
+        "concept_id": "qigong",
+        "additional_concepts": [],
+        "study_id": "henz-schoellhorn-2017",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "sample-size-unclear",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "irrmischer-2025",
+      "doi": "10.1523/JNEUROSCI.0344-25.2025",
+      "kind": "study",
+      "curated": {
+        "concept_id": "ich-aufloesung",
+        "additional_concepts": [],
+        "study_id": "irrmischer-2025",
+        "reference_id": null,
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "varela-1996",
+      "doi": null,
+      "kind": "reference_knotenpunkt",
+      "curated": {
+        "concept_id": "nichtduales-gewahrsein",
+        "additional_concepts": [
+          "ich-aufloesung",
+          "jhana"
+        ],
+        "study_id": null,
+        "reference_id": "varela-1996",
+        "parent_reference_id": null,
+        "fallback_url": "https://www.unstable.nl/varela_neurophenomenology.pdf"
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "no-doi-use-fallback-url"
+      ]
+    },
+    {
+      "seed_id": "lutz-lachaux-2002",
+      "doi": "10.1073/pnas.032658199",
+      "kind": "reference_followup",
+      "curated": {
+        "concept_id": "nichtduales-gewahrsein",
+        "additional_concepts": [
+          "ich-aufloesung"
+        ],
+        "study_id": null,
+        "reference_id": null,
+        "parent_reference_id": "varela-1996",
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "lutz-thompson-2003",
+      "doi": null,
+      "kind": "reference_followup",
+      "curated": {
+        "concept_id": "nichtduales-gewahrsein",
+        "additional_concepts": [],
+        "study_id": null,
+        "reference_id": null,
+        "parent_reference_id": "varela-1996",
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "no-doi-jcs-pre-2010"
+      ]
+    },
+    {
+      "seed_id": "petitmengin-2019",
+      "doi": "10.1016/j.copsyc.2018.10.009",
+      "kind": "reference_followup",
+      "curated": {
+        "concept_id": "nichtduales-gewahrsein",
+        "additional_concepts": [],
+        "study_id": null,
+        "reference_id": null,
+        "parent_reference_id": "varela-1996",
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "sparby-sacchet-cluster",
+      "doi": "10.3389/fpsyg.2021.795077",
+      "kind": "reference_knotenpunkt",
+      "curated": {
+        "concept_id": "jhana",
+        "additional_concepts": [
+          "nichtduales-gewahrsein",
+          "nirodha-samapatti"
+        ],
+        "study_id": null,
+        "reference_id": "sparby-sacchet-cluster",
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "yang-2024-volitional",
+      "doi": "10.1016/j.heliyon.2024.e31223",
+      "kind": "reference_followup",
+      "curated": {
+        "concept_id": "jhana",
+        "additional_concepts": [],
+        "study_id": null,
+        "reference_id": null,
+        "parent_reference_id": "sparby-sacchet-cluster",
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "chowdhury-2025-cluster-followup",
+      "doi": "10.1016/j.neuroimage.2024.120973",
+      "kind": "reference_followup",
+      "curated": {
+        "concept_id": "jhana",
+        "additional_concepts": [],
+        "study_id": null,
+        "reference_id": null,
+        "parent_reference_id": "sparby-sacchet-cluster",
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "ok",
+          "title": "Multimodal neurophenomenology of advanced concentration absorption meditation — an intensively sampled case study of Jhana",
+          "journal": "NeuroImage",
+          "authors": [
+            "Chowdhury, Avijit",
+            "Bianciardi, Marta",
+            "Chapdelaine, Elizabeth",
+            "Riaz, Omar S.",
+            "Timmermann, Christopher",
+            "van Lutterveld, Remko",
+            "Sparby, Terje",
+            "Sacchet, Matthew D."
+          ],
+          "year": 2025,
+          "volume": "305",
+          "issue": null,
+          "page": "120973",
+          "publisher": "Elsevier BV",
+          "is_referenced_by_count": null,
+          "type": "journal-article"
+        },
+        "unpaywall": {
+          "status": "ok",
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "best_oa_url": "https://www.sciencedirect.com/science/article/pii/S1053811924004336",
+          "best_oa_license": "cc-by",
+          "best_oa_version": "publishedVersion"
+        },
+        "openalex": {
+          "status": "ok",
+          "openalex_id": "https://openalex.org/W4404730000",
+          "cited_by_count": null,
+          "referenced_works_count": 0,
+          "related_works": [],
+          "concepts": [
+            {
+              "display_name": "Meditation",
+              "score": 0.92
+            },
+            {
+              "display_name": "Default mode network",
+              "score": 0.74
+            },
+            {
+              "display_name": "Phenomenology",
+              "score": 0.61
+            }
+          ]
+        }
+      },
+      "flags": [
+        "duplicate-of-study-chowdhury-2025"
+      ]
+    },
+    {
+      "seed_id": "sparby-sacchet-2025-third-wave",
+      "doi": null,
+      "kind": "reference_followup",
+      "curated": {
+        "concept_id": "jhana",
+        "additional_concepts": [],
+        "study_id": null,
+        "reference_id": null,
+        "parent_reference_id": "sparby-sacchet-cluster",
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "doi-unverified-pre-ingest"
+      ]
+    },
+    {
+      "seed_id": "lindahl-2017",
+      "doi": "10.1371/journal.pone.0176239",
+      "kind": "reference_knotenpunkt",
+      "curated": {
+        "concept_id": "nichtduales-gewahrsein",
+        "additional_concepts": [
+          "jhana",
+          "ich-aufloesung"
+        ],
+        "study_id": null,
+        "reference_id": "lindahl-2017",
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "lindahl-2020-progress-pathology",
+      "doi": "10.3389/fpsyg.2020.01905",
+      "kind": "reference_followup",
+      "curated": {
+        "concept_id": "nichtduales-gewahrsein",
+        "additional_concepts": [],
+        "study_id": null,
+        "reference_id": null,
+        "parent_reference_id": "lindahl-2017",
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "britton-2021-cluster-followup",
+      "doi": "10.1177/2167702621996340",
+      "kind": "reference_followup",
+      "curated": {
+        "concept_id": "mbsr",
+        "additional_concepts": [],
+        "study_id": null,
+        "reference_id": null,
+        "parent_reference_id": "lindahl-2017",
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "duplicate-of-study-britton-2021",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "canby-2024-self-dissolution",
+      "doi": "10.1016/j.concog.2024.103655",
+      "kind": "reference_followup",
+      "curated": {
+        "concept_id": "ich-aufloesung",
+        "additional_concepts": [],
+        "study_id": null,
+        "reference_id": null,
+        "parent_reference_id": "lindahl-2017",
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "carhart-harris-2014-entropic",
+      "doi": "10.3389/fnhum.2014.00020",
+      "kind": "reference_knotenpunkt",
+      "curated": {
+        "concept_id": "ich-aufloesung",
+        "additional_concepts": [
+          "dmn-suppression"
+        ],
+        "study_id": null,
+        "reference_id": "carhart-harris-2014-entropic",
+        "parent_reference_id": null,
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "ok",
+          "title": "The entropic brain — a theory of conscious states informed by neuroimaging research with psychedelic drugs",
+          "journal": "Frontiers in Human Neuroscience",
+          "authors": [
+            "Carhart-Harris, Robin L.",
+            "Leech, Robert",
+            "Hellyer, Peter J.",
+            "Shanahan, Murray",
+            "Feilding, Amanda",
+            "Tagliazucchi, Enzo",
+            "Chialvo, Dante R.",
+            "Nutt, David"
+          ],
+          "year": 2014,
+          "volume": "8",
+          "issue": null,
+          "page": "20",
+          "publisher": "Frontiers Media SA",
+          "is_referenced_by_count": null,
+          "type": "journal-article"
+        },
+        "unpaywall": {
+          "status": "ok",
+          "is_oa": true,
+          "oa_status": "gold",
+          "best_oa_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2014.00020/full",
+          "best_oa_license": "cc-by",
+          "best_oa_version": "publishedVersion"
+        },
+        "openalex": {
+          "status": "ok",
+          "openalex_id": "https://openalex.org/W2168558480",
+          "cited_by_count": null,
+          "referenced_works_count": 0,
+          "related_works": [],
+          "concepts": [
+            {
+              "display_name": "Psychedelic drug",
+              "score": 0.95
+            },
+            {
+              "display_name": "Default mode network",
+              "score": 0.81
+            },
+            {
+              "display_name": "Entropy",
+              "score": 0.69
+            }
+          ]
+        }
+      },
+      "flags": [
+        "duplicate-of-study-carhart-harris-2014"
+      ]
+    },
+    {
+      "seed_id": "carhart-harris-2018-revisited",
+      "doi": "10.1016/j.neuropharm.2018.03.010",
+      "kind": "reference_followup",
+      "curated": {
+        "concept_id": "ich-aufloesung",
+        "additional_concepts": [],
+        "study_id": null,
+        "reference_id": null,
+        "parent_reference_id": "carhart-harris-2014-entropic",
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "carhart-harris-friston-2019-rebus",
+      "doi": "10.1124/pr.118.017160",
+      "kind": "reference_followup",
+      "curated": {
+        "concept_id": "dmn-suppression",
+        "additional_concepts": [],
+        "study_id": null,
+        "reference_id": null,
+        "parent_reference_id": "carhart-harris-2014-entropic",
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "duplicate-of-study-carhart-harris-friston-2019",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    },
+    {
+      "seed_id": "girn-2022-serotonergic",
+      "doi": "10.1016/j.neuroimage.2022.119220",
+      "kind": "reference_followup",
+      "curated": {
+        "concept_id": "ich-aufloesung",
+        "additional_concepts": [],
+        "study_id": null,
+        "reference_id": null,
+        "parent_reference_id": "carhart-harris-2014-entropic",
+        "fallback_url": null
+      },
+      "harvested": {
+        "crossref": {
+          "status": "missing"
+        },
+        "unpaywall": {
+          "status": "missing"
+        },
+        "openalex": {
+          "status": "missing"
+        }
+      },
+      "flags": [
+        "crossref-missing",
+        "openalex-missing",
+        "unpaywall-missing"
+      ]
+    }
+  ],
+  "gap_report": {
+    "true_gaps": [
+      {
+        "concept_id": "neidan-gap",
+        "maturity": "fehlend",
+        "kind": "echte-luecke"
+      },
+      {
+        "concept_id": "kabbalah-gap",
+        "maturity": "fehlend",
+        "kind": "echte-luecke"
+      }
+    ],
+    "seed_incomplete": [],
+    "consistent": [
+      {
+        "concept_id": "jhana",
+        "maturity": "etabliert",
+        "seed_count": 6
+      },
+      {
+        "concept_id": "nichtduales-gewahrsein",
+        "maturity": "etabliert",
+        "seed_count": 6
+      },
+      {
+        "concept_id": "nirodha-samapatti",
+        "maturity": "etabliert",
+        "seed_count": 4
+      },
+      {
+        "concept_id": "dmn-suppression",
+        "maturity": "etabliert",
+        "seed_count": 1
+      },
+      {
+        "concept_id": "ich-aufloesung",
+        "maturity": "etabliert",
+        "seed_count": 5
+      },
+      {
+        "concept_id": "mbsr",
+        "maturity": "etabliert",
+        "seed_count": 3
+      },
+      {
+        "concept_id": "hesychasm",
+        "maturity": "beginnend",
+        "seed_count": 2
+      },
+      {
+        "concept_id": "sufi-dhikr",
+        "maturity": "berührt",
+        "seed_count": 1
+      },
+      {
+        "concept_id": "qigong",
+        "maturity": "berührt",
+        "seed_count": 1
+      }
+    ]
+  },
+  "endpoints": {
+    "crossref": "https://api.crossref.org/works/",
+    "unpaywall": "https://api.unpaywall.org/v2/",
+    "openalex": "https://api.openalex.org/works/doi:"
+  },
+  "policy": {
+    "curated_fields_study": [
+      "concept_id",
+      "additional_concepts",
+      "evidence_type",
+      "provenance",
+      "summary",
+      "method",
+      "sample_type",
+      "n",
+      "domain"
+    ],
+    "curated_fields_reference": [
+      "concepts_anchored",
+      "core_thesis",
+      "type",
+      "doi_status",
+      "doi_note"
+    ],
+    "rule": "Re-Harvest überschreibt keine kuratierten Felder. Konflikte werden als Flag ausgewiesen."
+  }
+}

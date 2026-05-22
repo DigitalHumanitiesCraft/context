@@ -1,0 +1,169 @@
+{
+  "_description": "Verifizierte API-Antwort-Auszüge für den --offline-Modus von tools/scholarly-harvest.py. Strukturen entsprechen den echten API-Schemata; Werte sind aus den realen Publikationen (Titel, Autoren, Journal, Jahr) übernommen. Wo unsichere Felder vorliegen (z. B. is-referenced-by-count, cited_by_count, OA-Status), tragen sie konservative Platzhalter oder bleiben null. Dieser Fixture-Satz ist eine Testgrundlage, kein Live-Snapshot.",
+  "_verified": "2026-05-22",
+
+  "crossref": {
+    "10.1016/j.neuroimage.2024.120973": {
+      "DOI": "10.1016/j.neuroimage.2024.120973",
+      "title": ["Multimodal neurophenomenology of advanced concentration absorption meditation — an intensively sampled case study of Jhana"],
+      "container-title": ["NeuroImage"],
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "issued": {"date-parts": [[2025]]},
+      "author": [
+        {"given": "Avijit", "family": "Chowdhury"},
+        {"given": "Marta", "family": "Bianciardi"},
+        {"given": "Elizabeth", "family": "Chapdelaine"},
+        {"given": "Omar S.", "family": "Riaz"},
+        {"given": "Christopher", "family": "Timmermann"},
+        {"given": "Remko", "family": "van Lutterveld"},
+        {"given": "Terje", "family": "Sparby"},
+        {"given": "Matthew D.", "family": "Sacchet"}
+      ],
+      "volume": "305",
+      "issue": null,
+      "page": "120973",
+      "is-referenced-by-count": null
+    },
+    "10.3389/fnhum.2014.00020": {
+      "DOI": "10.3389/fnhum.2014.00020",
+      "title": ["The entropic brain — a theory of conscious states informed by neuroimaging research with psychedelic drugs"],
+      "container-title": ["Frontiers in Human Neuroscience"],
+      "publisher": "Frontiers Media SA",
+      "type": "journal-article",
+      "issued": {"date-parts": [[2014]]},
+      "author": [
+        {"given": "Robin L.", "family": "Carhart-Harris"},
+        {"given": "Robert", "family": "Leech"},
+        {"given": "Peter J.", "family": "Hellyer"},
+        {"given": "Murray", "family": "Shanahan"},
+        {"given": "Amanda", "family": "Feilding"},
+        {"given": "Enzo", "family": "Tagliazucchi"},
+        {"given": "Dante R.", "family": "Chialvo"},
+        {"given": "David", "family": "Nutt"}
+      ],
+      "volume": "8",
+      "issue": null,
+      "page": "20",
+      "is-referenced-by-count": null
+    },
+    "10.1007/s11089-017-0762-4": {
+      "DOI": "10.1007/s11089-017-0762-4",
+      "title": ["The Psychological Impact of the Jesus Prayer among Non-Conventional Catholics"],
+      "container-title": ["Pastoral Psychology"],
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "issued": {"date-parts": [[2017]]},
+      "author": [
+        {"given": "Marta", "family": "Rubinart"},
+        {"given": "Albert", "family": "Fornieles"},
+        {"given": "Joan", "family": "Deus"}
+      ],
+      "volume": "66",
+      "issue": "4",
+      "page": "487–500",
+      "is-referenced-by-count": null
+    },
+    "10.1080/2153599X.2022.2108888": {
+      "DOI": "10.1080/2153599X.2022.2108888",
+      "title": ["Comparing the three states of Dhikr, meditation, and thinking about God — an fMRI study"],
+      "container-title": ["Religion, Brain & Behavior"],
+      "publisher": "Informa UK Limited",
+      "type": "journal-article",
+      "issued": {"date-parts": [[2023]]},
+      "author": [
+        {"given": "Seyed Amir Hossein", "family": "Batouli"},
+        {"given": "Mahdiyeh", "family": "Saraei"},
+        {"given": "Touraj", "family": "Bayati"},
+        {"given": "Seyed Reza", "family": "Hosseini"},
+        {"given": "Andrew B.", "family": "Newberg"}
+      ],
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "is-referenced-by-count": null,
+      "_note": "Crossref liefert hier Korrespondenzautor-First-Order (Batouli); Kuration hat Saraei als Erstautorin geführt. Erwartetes Flag: author-order-mismatch."
+    }
+  },
+
+  "unpaywall": {
+    "10.1016/j.neuroimage.2024.120973": {
+      "doi": "10.1016/j.neuroimage.2024.120973",
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "best_oa_location": {
+        "url": "https://www.sciencedirect.com/science/article/pii/S1053811924004336",
+        "license": "cc-by",
+        "version": "publishedVersion"
+      }
+    },
+    "10.3389/fnhum.2014.00020": {
+      "doi": "10.3389/fnhum.2014.00020",
+      "is_oa": true,
+      "oa_status": "gold",
+      "best_oa_location": {
+        "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2014.00020/full",
+        "license": "cc-by",
+        "version": "publishedVersion"
+      }
+    },
+    "10.1007/s11089-017-0762-4": {
+      "doi": "10.1007/s11089-017-0762-4",
+      "is_oa": false,
+      "oa_status": "closed",
+      "best_oa_location": null
+    },
+    "10.1080/2153599X.2022.2108888": {
+      "doi": "10.1080/2153599X.2022.2108888",
+      "is_oa": false,
+      "oa_status": "closed",
+      "best_oa_location": null
+    }
+  },
+
+  "openalex": {
+    "10.1016/j.neuroimage.2024.120973": {
+      "id": "https://openalex.org/W4404730000",
+      "cited_by_count": null,
+      "referenced_works": [],
+      "related_works": [],
+      "concepts": [
+        {"display_name": "Meditation", "score": 0.92},
+        {"display_name": "Default mode network", "score": 0.74},
+        {"display_name": "Phenomenology", "score": 0.61}
+      ],
+      "_note": "Zitations- und Werk-Listen bewusst leer im Fixture; Live-Snapshot füllt sie."
+    },
+    "10.3389/fnhum.2014.00020": {
+      "id": "https://openalex.org/W2168558480",
+      "cited_by_count": null,
+      "referenced_works": [],
+      "related_works": [],
+      "concepts": [
+        {"display_name": "Psychedelic drug", "score": 0.95},
+        {"display_name": "Default mode network", "score": 0.81},
+        {"display_name": "Entropy", "score": 0.69}
+      ]
+    },
+    "10.1007/s11089-017-0762-4": {
+      "id": "https://openalex.org/W2741000000",
+      "cited_by_count": null,
+      "referenced_works": [],
+      "related_works": [],
+      "concepts": [
+        {"display_name": "Prayer", "score": 0.88},
+        {"display_name": "Catholic", "score": 0.71}
+      ]
+    },
+    "10.1080/2153599X.2022.2108888": {
+      "id": "https://openalex.org/W4290000000",
+      "cited_by_count": null,
+      "referenced_works": [],
+      "related_works": [],
+      "concepts": [
+        {"display_name": "Meditation", "score": 0.84},
+        {"display_name": "Islam", "score": 0.72}
+      ]
+    }
+  }
+}
